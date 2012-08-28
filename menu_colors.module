@@ -28,3 +28,14 @@ function menu_colors_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {
 		break;
   }
 }
+
+/**
+ * Implementation of hook_preprocess().
+ */
+function menu_colors_preprocess(&$vars) {
+  $pages = array('fixed_width_landing_page', 'fluid_width_landing_page', 'fixed_width_secondary_page', 'fluid_width_secondary_page', 'fixed_width_landing_page', 'fluid_width_landing_page', 'fixed_width_secondary_page', 'fluid_width_secondary_page');
+  if (in_array($vars['node']->type, $pages)) {
+    $vars['body_classes'] .= ' menu-colors';
+  }
+}
+
