@@ -1,0 +1,32 @@
+#block-views-landing_page_menu-block_1 {
+  background-color: #FFB310 !important;
+}
+
+
+#block-views-landing_page_menu-block_1 .item-list ul li {
+  background-color: #FFB310 !important;
+  color: #FFF !important;
+  height: 40px;
+}
+
+#block-views-landing_page_menu-block_1 .item-list ul li.views-row-last {
+  padding-right: 48px;
+}
+
+#block-views-landing_page_menu-block_1 .item-list ul li:hover {
+  background-color: #fff !important;
+  color: #333 !important;
+  height: 19px;
+}
+
+#block-views-landing_page_menu-block_1 .item-list ul li a {
+  color: inherit !important;
+}
+
+#block-views-landing_page_menu-block_1 .item-list ul li a:hover {
+	border-bottom: none;
+  background-color: #FFF !important;
+  color: #333;
+}
+
+

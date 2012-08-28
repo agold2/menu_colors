@@ -1,0 +1,34 @@
+#block-views-landing_page_menu-block_1, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 {
+ background-color: #000 !important;
+}
+
+#block-views-landing_page_menu-block_1 .item-list ul li, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul li {
+ background-color: #000 !important;
+ color: #FFF !important;
+ border-bottom: 5px solid #000 !important;
+}
+
+#block-views-landing_page_menu-block_1 .item-list ul li:hover {
+  border-bottom: 5px solid #FFB310 !important;
+	color: #FFB310 !important;
+}
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul li:hover {
+  border-bottom: 5px solid #FFB310 !important;
+	color: #FFB310 !important;
+}
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul li.active-trail {
+  border-bottom: 5px solid #FFB310 !important;
+	color: #FFB310 !important;
+}
+
+#block-views-landing_page_menu-block_1 .item-list ul li a, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul li a {
+	color: inherit !important; 
+}
+/*
+#block-views-landing_page_menu-block_1 .item-list ul li a:hover, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul li a:hover  {
+  border-bottom: inherit !important;
+}
+*/
+

@@ -1,0 +1,96 @@
+.not-front #content-area {
+  padding-left: 16px;
+}
+.not-front #content {
+  padding-top: 16px;
+}
+.not-front h1 {
+  line-height: 28px;
+}
+#content {
+  background: white;
+}
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul li{
+  /* IE 7 Hack */
+  zoom: 1;
+  *display: inline;
+}
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu
+{ 
+  text-align: center;
+  /*
+  padding-bottom: 5px;
+  padding-top: 5px;
+  */
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: 0;
+  /* cancels gap caused by top padding in Opera 7.54 */
+  margin-left: 0;
+  background-color: #ffb310;
+  color: white;
+  width: 100%;
+  font-family: Arial,Helvetica,sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  /* fixes Firefox 0.9.3 */
+}
+
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li
+{
+  display: inline;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 10px;
+  /* matches link padding except for left and right */
+  padding-top: 10px;
+}
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li  a
+{
+  
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a:hover,
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li.active-trail a,
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a.active
+
+{
+  background-color: #fff;
+  color: #000;
+}
+
+
+
+
+
+/* RESET */
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 h2 {
+  display: none;
+}
+
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul {
+  margin: 0;
+  padding: 0;
+}
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list {
+  background-color: #ffb310;
+}

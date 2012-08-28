@@ -1,0 +1,55 @@
+#block-views-landing_page_menu-block_1, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 {
+    background-color: #ffb310 !important;
+}
+
+
+#block-views-landing_page_menu-block_1 .item-list ul li, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul li a {
+  background-color: #ffb310 !important;
+  color: #FFF !important;
+  height: 40px;
+}
+
+
+
+#block-views-landing_page_menu-block_1 .item-list ul ul li a, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul li a {
+  color: #fff !important;
+}
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul li a:hover,
+#block-views-landing_page_menu-block_1 .item-list ul li:hover,
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul.menu li.active-trail a {
+  border-bottom: none;
+  background-color: #fff !important;
+  color: #000 !important;
+}
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul.menu li.active-trail a,
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul.menu li a:hover {
+  color: #000 !important;
+}
+
+ #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul li a:hover {
+      background-color: #fff !important;
+       }
+
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29  li.views-row-1 {
+ /* display: block; */
+}
+
+/*
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul.menu li a {
+  padding: 9px 0 10px 0;
+}
+*/
+/*
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul ul.menu li {
+  padding: 13px 0 0 0;
+  padding: 16px 0 14px 0;
+}
+*/
+/*
+#main, #navbar, #header-blocks, #closure-blocks {
+  line-height: 22px;
+}
+*/
