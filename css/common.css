@@ -1,10 +1,8 @@
-  
 .not-front #content-area, body.node-type-fixed-width-secondary-page #content-area, body.node-type-fluid-width-secondary-page #content-area {
   padding-top: 16px;
   padding-left: 16px;
   padding-right: 16px;
 }
-
 
 .not-front h1 {
    font-size: 36px;
@@ -97,10 +95,6 @@ ul.text-style-2 li a {
   border-bottom: dashed 1px #990033;
 }
   
-  
-  
- 
-  
 #block-views-sidebar_menu-block_1 ul ul ul li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul ul ul li {
    line-height: 20px;
  }
@@ -134,6 +128,10 @@ ul.text-style-2 li a {
  margin:0;
 }
  
+
+.menu-colors a {
+  text-decoration: none;
+}
 
 body.not-front #content-area a {
   color: #903;
