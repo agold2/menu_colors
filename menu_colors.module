@@ -24,6 +24,9 @@ function menu_colors_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {
 			    drupal_add_css(drupal_get_path('module', 'menu_colors') .'/css/sidebar/menu_colors_' . $color . '_side.css');
 			    drupal_add_css(drupal_get_path('module', 'menu_colors') .'/css/common.css');
         }
+        if ($node->field_hide_sidebar_left[0]['value'] == 'hide') {
+          drupal_add_css(drupal_get_path('module', 'menu_colors') . '/css/sidebar/menu_colors_sidebar_left_hide.css');
+        }
       }
 		break;
   }
