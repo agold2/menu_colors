@@ -599,6 +599,58 @@ hide|Hide Nav Bar',
     ),
   );
 
+  // Exported field: field_hide_sidebar_left
+  $fields['fixed_width_secondary_page-field_hide_sidebar_left'] = array(
+    'field_name' => 'field_hide_sidebar_left',
+    'type_name' => 'fixed_width_secondary_page',
+    'display_settings' => array(
+      'label' => array(
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'display|Display Left Sidebar
+hide|Hide Left Sidebar',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => 'display',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Hide Left Sidebar',
+      'weight' => '19',
+      'description' => '',
+      'type' => 'optionwidgets_onoff',
+      'module' => 'optionwidgets',
+    ),
+  );
+
   // Exported field: field_html_block_1
   $fields['fixed_width_secondary_page-field_html_block_1'] = array(
     'field_name' => 'field_html_block_1',
@@ -648,7 +700,7 @@ hide|Hide Nav Bar',
       ),
       'default_value_php' => NULL,
       'label' => 'HTML Block',
-      'weight' => '15',
+      'weight' => '20',
       'description' => '',
       'type' => 'text_textarea',
       'module' => 'text',
@@ -703,7 +755,7 @@ hide|Hide Nav Bar',
       ),
       'default_value_php' => NULL,
       'label' => 'HTML Block',
-      'weight' => '18',
+      'weight' => '23',
       'description' => '',
       'type' => 'text_textarea',
       'module' => 'text',
@@ -1090,7 +1142,7 @@ greywhite|Grey and White',
       ),
       'default_value_php' => NULL,
       'label' => 'Sidebar Color',
-      'weight' => '17',
+      'weight' => '22',
       'description' => '',
       'type' => 'optionwidgets_buttons',
       'module' => 'optionwidgets',
@@ -1164,7 +1216,7 @@ greywhite|Grey and White',
       ),
       'default_value_php' => NULL,
       'label' => 'Sidebar Menu',
-      'weight' => '16',
+      'weight' => '21',
       'description' => '',
       'type' => 'blockreference_select_sort',
       'module' => 'blockreference',
@@ -1177,6 +1229,7 @@ greywhite|Grey and White',
   t('Content');
   t('HTML Block');
   t('Hide Content Title');
+  t('Hide Left Sidebar');
   t('Hide Nav Bar');
   t('Main Content');
   t('Nav Bar Color');
