@@ -1,7 +1,7 @@
-.not-front #content-area, body.node-type-fixed-width-secondary-page #content-area, body.node-type-fluid-width-secondary-page #content-area {
-  padding-top: 16px;
-  padding-left: 16px;
-  padding-right: 16px;
+body.menu-colors #content-area, body.node-type-fixed-width-secondary-page #content-area, body.node-type-fluid-width-secondary-page #content-area {
+  margin-left: 35px;
+  padding-top: 30px;
+  padding-right: 30px;
 }
 
 .not-front h1 {
@@ -237,7 +237,7 @@ font-size: 16px;
 margin-bottom: 15px;
 width: 170px;
 line-height: 25px;
-margin-left: 20px;
+margin-left: 30px;
 }
 
 body.node-type-fixed-width-secondary-page #sidebar-left-inner, body.node-type-fluid-width-secondary-page #sidebar-left-inner {
@@ -258,8 +258,8 @@ padding-bottom: 30px;
 
 body.node-type-fixed-width-secondary-page #sidebar-left, body.node-type-fluid-width-secondary-page #sidebar-left {
   background-color: white;
-  padding-top: 20px;
-  width: 210px;
+  padding-top: 30px;
+  width: 200px;
 }
 
 
