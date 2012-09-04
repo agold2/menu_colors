@@ -1,16 +1,25 @@
 body.menu-colors #content-area, body.node-type-fixed-width-secondary-page #content-area, body.node-type-fluid-width-secondary-page #content-area {
   margin-left: 35px;
-  padding-top: 30px;
+  padding-top: 36px;
   padding-right: 30px;
+  padding: 36px 30px 0 30px;
 }
+
+body.page-welldevils #content-area {
+  padding: 47px 30px 0 30px;
+}
+
+
 
 .not-front h1 {
    font-size: 36px;
-   line-height: 0;
+   line-height: 36px;
    margin-bottom: 20px;
    font-family: Arial;
    font-weight: bold;
    color: #ffB310;
+   margin-top: -17px;
+   height: 100%;
 }
  
 .not-front #content-area h2 {
@@ -116,7 +125,6 @@ ul.text-style-2 li a {
   padding:0 10px; 
   background-color:white;
 }
- 
 .cf-left-col {
   width:550px;
   float:left;
@@ -127,7 +135,6 @@ ul.text-style-2 li a {
  list-style-type: none;
  margin:0;
 }
- 
 
 .menu-colors #sidebar-left a:hover {
   text-decoration: none;
@@ -140,7 +147,6 @@ body.not-front #content-area a {
 body.not-front #content-area a:hover {
   color: black;
 }
-
 .cf-center-col {
   width:200px;
   float:left;
@@ -153,19 +159,18 @@ body.not-front #content-area a:hover {
   margin: 0 20px 0 60px;
   padding-left: 25px;
 }
- 
+/*
 .cf-center-col a {
   color: white !important;
   line-height: 30px;
   text-decoration: none;
 }
- 
 .cf-center-col a:hover {
   color: #FFB411 !important;
   text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
 }
- 
+ */
  
  
 .cf-center-col ul {
@@ -184,13 +189,13 @@ body.not-front #content-area a:hover {
   float:left;
   margin:0;   
 }
-
+/*
 #content-area .cf-left-col a {
   color: #903;
   border-bottom: dashed 1px #903;
   text-decoration: none;
 }
- 
+ */
 #block-views-sidebar_menu-block_1 ul ul ul ul {
   margin-left: 18px;
 }
@@ -204,7 +209,6 @@ body.not-front #content-area a:hover {
 }
 
 .not-front h1 {
-  line-height: 36px;
 }
 
 
@@ -272,4 +276,6 @@ body.node-type-fixed-width-secondary-page #block-views-sidebar_html_1-block_1, b
   margin-bottom: 0;
 }
 
-
+hr {
+  width: 100%;
+}
