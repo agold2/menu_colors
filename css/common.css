@@ -1,16 +1,20 @@
 body.menu-colors #content-area, body.node-type-fixed-width-secondary-page #content-area, body.node-type-fluid-width-secondary-page #content-area {
   margin-left: 35px;
-  padding-top: 36px;
-  padding-right: 30px;
-  padding: 36px 30px 0 30px;
+  padding: 31px 30px 0 30px;
 }
 
-body.page-welldevils #content-area {
-  padding: 47px 30px 0 30px;
+body.section-welldevils #content-area {
+  padding: 34px 30px 0 30px;
 }
 
+#content-area .node-type-fixed-width-secondary-page h2.title {
+  font-size: 26px;
+}
 
+#content-area .node-type-fixed-width-landing-page h2.title {
+  font-size: 36px;
 
+}
 .not-front h1 {
    font-size: 36px;
    line-height: 36px;
@@ -260,6 +264,19 @@ padding-left: 0px;
 padding-bottom: 30px;
 }
 
+
+#block-views-sidebar_menu-block_1 ul.menu ul li.last, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul li.last,
+#block-views-sidebar_menu-block_1 ul.menu ul li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul li,
+#block-views-sidebar_menu-block_1 ul.menu ul li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul li.first {
+  padding:0px;
+  margin:0px;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 20px;
+  padding-top: 7px;
+}
+
+
 body.node-type-fixed-width-secondary-page #sidebar-left, body.node-type-fluid-width-secondary-page #sidebar-left {
   background-color: white;
   padding-top: 30px;
@@ -278,4 +295,9 @@ body.node-type-fixed-width-secondary-page #block-views-sidebar_html_1-block_1, b
 
 hr {
   width: 100%;
+}
+
+.menu-colors .node-type-fixed-width-secondary-page h2.title,
+.menu-colors .node-type-fluid-width-secondary-page h2.title {
+  font-size: 26px !important;
 }
