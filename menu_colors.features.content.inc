@@ -546,59 +546,6 @@ hide|Hide Content Title',
     ),
   );
 
-  // Exported field: field_hide_navbar
-  $fields['fixed_width_secondary_page-field_hide_navbar'] = array(
-    'field_name' => 'field_hide_navbar',
-    'type_name' => 'fixed_width_secondary_page',
-    'display_settings' => array(
-      'weight' => '3',
-      'parent' => '',
-      'label' => array(
-        'format' => 'hidden',
-      ),
-      'teaser' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '0',
-    'max_length' => '',
-    'allowed_values' => 'display|Display Nav Bar
-hide|Hide Nav Bar',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'value' => 'display',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Hide Nav Bar',
-      'weight' => '3',
-      'description' => '',
-      'type' => 'optionwidgets_onoff',
-      'module' => 'optionwidgets',
-    ),
-  );
-
   // Exported field: field_hide_sidebar_left
   $fields['fixed_width_secondary_page-field_hide_sidebar_left'] = array(
     'field_name' => 'field_hide_sidebar_left',
