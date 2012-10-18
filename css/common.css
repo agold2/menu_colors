@@ -1,8 +1,6 @@
 body.menu-colors #content-area, body.node-type-fixed-width-secondary-page #content-area, body.node-type-fluid-width-secondary-page #content-area {
   margin-left: 35px;
-  padding-top: 36px;
-  padding-right: 30px;
-  padding: 36px 30px 0 30px;
+  padding: 42px 30px 0 30px;
 }
 
 body.page-welldevils #content-area {
