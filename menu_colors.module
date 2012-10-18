@@ -16,6 +16,9 @@ function menu_colors_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {
 					drupal_add_css(drupal_get_path('module', 'menu_colors') . '/css/navbar/menu_colors_' . $color . '_nav.css');
 					drupal_add_css(drupal_get_path('module', 'menu_colors') . '/css/common.css');
 		  	}
+        if (!$node->field_navbar_menu) {
+          drupal_add_css(drupal_get_path('module', 'menu_colors') . '/css/navbar/menu_colors_navbar_hide.css');
+        }
 			}
       $pages = array('fixed_width_secondary_page', 'fluid_width_secondary_page', 'fixed_width_tertiary_page', 'fluid_width_tertiary_page');
 			if (in_array($node->type, $pages)) {
