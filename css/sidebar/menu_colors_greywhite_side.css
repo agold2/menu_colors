@@ -1,12 +1,11 @@
 #block-views-sidebar_menu-block_1, #block-views-632c02ef065305bc3a4fbc81affb43d9 {
   background-color: #4f5557;
-  border-right: 5px solid #FFB310; }
+  border-right: 5px solid #ffb310; }
   #block-views-sidebar_menu-block_1 h2.title, #block-views-632c02ef065305bc3a4fbc81affb43d9 h2.title {
     color: #ffb310; }
   #block-views-sidebar_menu-block_1 a, #block-views-632c02ef065305bc3a4fbc81affb43d9 a {
     color: #FFF; }
     #block-views-sidebar_menu-block_1 a:hover, #block-views-632c02ef065305bc3a4fbc81affb43d9 a:hover {
-      color: #FFB310; }
+      color: #ffb310; }
   #block-views-sidebar_menu-block_1 a.active, #block-views-632c02ef065305bc3a4fbc81affb43d9 a.active {
-    color: #ffb310;
-    font-weight: bold; }
+    color: #ffb310; }

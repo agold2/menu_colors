@@ -1,42 +1,18 @@
-.not-front #content-area {
-  padding: 30px 16px;
-}
-
+$bg: #fff;
+$accent: #333;
+$text: #898989;
 
 #block-views-sidebar_menu-block_1, #block-views-632c02ef065305bc3a4fbc81affb43d9 {
-   background-color: #FFF;
+   background-color: $bg;
+   h2.title {
+     color: $accent;
+   }
+   a {
+    color: $text;
+    &:hover { color: $accent; }
+   }
+   a.active {
+       color: $accent;
+       font-weight: bold;
+     }
 }
-
-#block-views-632c02ef065305bc3a4fbc81affb43d9 h2 {
-  display: none;
-}
-
-
-#block-views-sidebar_menu-block_1 .sidebar_menu_title, #block-views-632c02ef065305bc3a4fbc81affb43d9 .sidebar_menu_title {
-  color: #898989;
-}
-
-#block-views-sidebar_menu-block_1 a, #block-views-632c02ef065305bc3a4fbc81affb43d9 a {
-  color: #898989;
-}
-
-#block-views-sidebar_menu-block_1 a:hover, #block-views-632c02ef065305bc3a4fbc81affb43d9 a:hover {
-  color: #000;
-}
-
-#block-views-sidebar_menu-block_1 ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first {
-  padding-top: 0px;
-}
-
-#block-views-sidebar_menu-block_1 li li, #block-views-632c02ef065305bc3a4fbc81affb43d9 li li {
-  padding-left: 0px !important;
-}
-
-#block-views-sidebar_menu-block_1 ul ul li a.active, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul li a.active {
-  color: #333;
-}
-
-#block-views-sidebar_menu-block_1 ul ul li a.active, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul ul li a.active {
-  color: #333;
-}
-
