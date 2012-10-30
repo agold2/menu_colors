@@ -1,0 +1,16 @@
+#block-views-sidebar_menu-block_1, #block-views-632c02ef065305bc3a4fbc81affb43d9 {
+   background-color: #000;
+   border-right: 5px solid #FFB310;
+   h2 {
+     display: none;
+   }
+   a {
+     color: #FFF;
+     &:hover {
+       color: #ffb310;
+     }
+   }
+   ul ul li a, ul li a.active, .active-trail {
+     color: #ffb310;
+   }
+}

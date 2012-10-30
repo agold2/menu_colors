@@ -1,0 +1,17 @@
+$gold: #ffb310;
+
+#block-views-sidebar_menu-block_1, #block-views-632c02ef065305bc3a4fbc81affb43d9 {
+   background-color: #4f5557;
+   border-right: 5px solid #FFB310;
+   h2.title {
+     color: $gold;
+   }
+   a {
+    color: #FFF;
+    &:hover { color: #FFB310; }
+   }
+   a.active {
+       color: #ffb310;
+       font-weight: bold;
+     }
+}
