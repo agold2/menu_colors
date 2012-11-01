@@ -1,6 +1,6 @@
 Drupal.behaviors.myModule = function(context) {
 
-var links = $(".view-landing-page-menu-blockreference .item-list div.block-menu ul > li").not('.view-landing-page-menu-blockreference .item-list div.block-menu ul li ul li');
+var links = $(".view-landing-page-menu-blockreference .item-list div.block-menu ul li a").not('.view-landing-page-menu-blockreference .item-list div.block-menu ul li ul li a');
 distributeCategoryLinks('.view-landing-page-menu-blockreference .item-list',links);
 
   function distributeCategoryLinks(container, links) {
@@ -10,8 +10,8 @@ distributeCategoryLinks('.view-landing-page-menu-blockreference .item-list',link
       listWidth = listWidth + $(this).width(); 
     } );
     var distance = containerWidth - listWidth;
-    console.log('distance = ' + distance); 
-    i = 1;
+    //console.log('distance = ' + distance); 
+    var i = 1;
     $(links).each( function () {
       var oneDistance = Math.floor( distance/($(links).length - i) );
       $(this).css("padding-left", oneDistance / 2 );
