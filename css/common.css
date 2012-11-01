@@ -1,7 +1,7 @@
 /******************************************
 HEADINGS
 */
-.not-front h1, .not-front #content-area h2, .not-front #content-area h3, .not-front h3, .not-front h4, .cf-center-col, .text-style-2, ul.text-style-2 li, #hp-container {
+.not-front h1, .not-front #content-area h2, .not-front #content-area h3, .not-front h3, .not-front h4, .cf-center-col, .text-style-2, ul.text-style-2 li, #hp-container, p {
   font-family: Arial,Helvetica,sans-serif; }
 
 .not-front h1 {
@@ -154,7 +154,6 @@ body.not-front #content-area a {
     color: black; }
 
 .cf-center-col {
-  background-color: #000000 !important;
   float: left;
   font-style: normal;
   font-weight: normal;
