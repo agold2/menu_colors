@@ -43,7 +43,7 @@ function menu_colors_preprocess(&$vars) {
   if (in_array($vars['node']->type, $pages)) {
     $vars['body_classes'] .= ' menu-colors';
   }
-  if ($node->field_hide_sidebar_left[0]['value'] == 'hide') { 
+  if (in_array($vars['node']->field_hide_sidebar_left[0]['value'] == 'hide') { 
     $vars['body_classes'] .= ' hide-sidebar-left';
   }
 }
