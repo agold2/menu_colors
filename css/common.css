@@ -59,6 +59,9 @@ body.menu-colors #content-area, body.fixed-second #content-area, body.node-type-
   margin-left: 36px;
   padding: 19px 30px 0 30px; }
 
+body.node-type-fixed-width-landing-page #content-area {
+  margin-left: 0px; }
+
 body.menu-colors-hide-sidebar-left #content-area {
   margin-left: 0px; }
 
@@ -74,6 +77,9 @@ body.section-welldevils #content-area {
  */
 .menu-colors .node-inner {
   margin-right: 130px; }
+
+body.node-type-fixed-width-landing-page .node-inner {
+  margin-right: 0px; }
 
 .menu-colors-hide-sidebar-left .node-inner {
   margin-right: 0px; }
@@ -137,20 +143,6 @@ ul.text-style-2 li {
   padding-left: 0px;
   background-color: #FFF; }
 
-#hp-container {
-  background-color: white;
-  margin: 0;
-  padding: 0 10px;
-  width: 1000px; }
-  #hp-container ul {
-    list-style-type: none;
-    margin: 0; }
-
-.cf-left-col {
-  float: left;
-  margin: 10px 10px 0 40px;
-  width: 550px; }
-
 .menu-colors #sidebar-left a:hover {
   text-decoration: none; }
 
@@ -158,27 +150,6 @@ body.not-front #content-area a {
   color: #903; }
   body.not-front #content-area a:hover {
     color: black; }
-
-.cf-center-col {
-  float: left;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  margin: 0px 20px 0 60px;
-  padding-left: 25px;
-  width: 200px; }
-  .cf-center-col ul {
-    padding: 10px 0 0 0;
-    margin: 0 0 10px 0; }
-    .cf-center-col ul li {
-      list-style-type: none;
-      padding: 0px 0;
-      margin: 0; }
-
-.cf-right-col {
-  float: left;
-  margin: 0;
-  width: 300px; }
 
 #block-views-sidebar_menu-block_1 ul ul ul ul {
   margin-left: 10px; }
