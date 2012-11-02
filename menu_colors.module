@@ -44,7 +44,7 @@ function menu_colors_preprocess(&$vars) {
     $vars['body_classes'] .= ' menu-colors';
   }
   if ($vars['node']->field_hide_sidebar_left[0]['value'] == 'hide') { 
-    $vars['body_classes'] .= ' hide-sidebar-left';
+    $vars['body_classes'] .= ' menu-colors-hide-sidebar-left';
   }
 }
 
