@@ -4,7 +4,7 @@ var links = $(".view-landing-page-menu-blockreference .item-list div.block-menu 
 distributeCategoryLinks('.view-landing-page-menu-blockreference .item-list',links);
 
   function distributeCategoryLinks(container, links) {
-    var containerWidth = $(container).width() - 60;
+    var containerWidth = $(container).width() - 40;
     var listWidth = 0;
     $(links).each( function () {
       listWidth = listWidth + $(this).width(); 
