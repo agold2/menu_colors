@@ -56,7 +56,7 @@ body.menu-colors #content-area .node-type-fixed-width-secondary-page h2.title, b
   font-size: 26px !important; }
 
 body.menu-colors #content-area, body.fixed-second #content-area, body.node-type-fluid-width-secondary-page #content-area {
-  /*margin-left: 35px;*/
+  /*margin-left: 36px;*/
   padding: 19px 30px 0 30px; }
 
 body.section-welldevils #content-area {
@@ -70,7 +70,7 @@ body.section-welldevils #content-area {
  ******************************************************************************
  */
 .menu-colors .node-inner {
-  margin-right: 130px; }
+  /*margin-right: 130px;*/ }
 
 .text-style-1 {
   color: #666;
