@@ -163,6 +163,17 @@ hide|Hide Content Title',
       'title_type' => 'textfield',
       'default_image' => NULL,
       'use_default_image' => 0,
+      'filefield_sources' => array(
+        'imce' => 'imce',
+        'attach' => 0,
+        'remote' => 0,
+        'reference' => 0,
+      ),
+      'filefield_source_attach_path' => 'file-attach',
+      'filefield_source_attach_absolute' => '0',
+      'filefield_source_attach_mode' => 'copy',
+      'filefield_source_imce_mode' => '1',
+      'filefield_source_autocomplete' => '0',
       'insert' => 0,
       'insert_styles' => array(
         'auto' => 0,
@@ -181,17 +192,6 @@ hide|Hide Content Title',
       'insert_default' => 'auto',
       'insert_class' => '',
       'insert_width' => '',
-      'filefield_sources' => array(
-        'imce' => 'imce',
-        'attach' => 0,
-        'remote' => 0,
-        'reference' => 0,
-      ),
-      'filefield_source_attach_path' => 'file-attach',
-      'filefield_source_attach_absolute' => '0',
-      'filefield_source_attach_mode' => 'copy',
-      'filefield_source_autocomplete' => '0',
-      'filefield_source_imce_mode' => '1',
       'label' => 'Banner image',
       'weight' => '2',
       'description' => 'Images must be at least 1000 x 330 px.  Larger images will be automatically cropped to fit.',
@@ -412,14 +412,16 @@ goldgrey|Gold and Grey',
     ),
     'referenceable_modules' => array(
       'menu' => 'menu',
+      'asu_ldap_roles' => 0,
       'block' => 0,
       'cas' => 0,
-      'devel' => 0,
+      'diff' => 0,
       'menu_block' => 0,
       'node' => 0,
+      'poll' => 0,
+      'profile' => 0,
       'revisioning' => 0,
       'system' => 0,
-      'uc_cart' => 0,
       'user' => 0,
       'views' => 0,
       'webform' => 0,
@@ -541,6 +543,59 @@ hide|Hide Content Title',
       'label' => 'Hide Content Title',
       'weight' => '1',
       'description' => 'Check this checkbox to hide the title displayed in the content section.',
+      'type' => 'optionwidgets_onoff',
+      'module' => 'optionwidgets',
+    ),
+  );
+
+  // Exported field: field_hide_navbar
+  $fields['fixed_width_secondary_page-field_hide_navbar'] = array(
+    'field_name' => 'field_hide_navbar',
+    'type_name' => 'fixed_width_secondary_page',
+    'display_settings' => array(
+      'weight' => '3',
+      'parent' => '',
+      'label' => array(
+        'format' => 'hidden',
+      ),
+      'teaser' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'display|Display Nav Bar
+hide|Hide Nav Bar',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => 'display',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Hide Nav Bar',
+      'weight' => '3',
+      'description' => '',
       'type' => 'optionwidgets_onoff',
       'module' => 'optionwidgets',
     ),
@@ -760,6 +815,18 @@ hide|Hide Left Sidebar',
       'title_type' => 'textfield',
       'default_image' => NULL,
       'use_default_image' => 0,
+      'filefield_sources' => array(
+        'imce' => TRUE,
+        '0' => 1,
+        'attach' => FALSE,
+        'remote' => FALSE,
+        'reference' => FALSE,
+      ),
+      'filefield_source_attach_path' => 'file-attach',
+      'filefield_source_attach_absolute' => '0',
+      'filefield_source_attach_mode' => 'copy',
+      'filefield_source_imce_mode' => '1',
+      'filefield_source_autocomplete' => '0',
       'insert' => FALSE,
       'insert_styles' => array(
         '0' => 1,
@@ -781,18 +848,6 @@ hide|Hide Left Sidebar',
       ),
       'insert_class' => '',
       'insert_width' => '',
-      'filefield_sources' => array(
-        'imce' => TRUE,
-        '0' => 1,
-        'attach' => FALSE,
-        'remote' => FALSE,
-        'reference' => FALSE,
-      ),
-      'filefield_source_attach_path' => 'file-attach',
-      'filefield_source_attach_absolute' => '0',
-      'filefield_source_attach_mode' => 'copy',
-      'filefield_source_autocomplete' => '0',
-      'filefield_source_imce_mode' => '1',
       'label' => 'Banner image',
       'weight' => '2',
       'description' => '',
@@ -957,14 +1012,16 @@ goldgrey|Gold and Grey',
     ),
     'referenceable_modules' => array(
       'menu' => 'menu',
+      'asu_ldap_roles' => 0,
       'block' => 0,
       'cas' => 0,
-      'devel' => 0,
+      'diff' => 0,
       'menu_block' => 0,
       'node' => 0,
+      'poll' => 0,
+      'profile' => 0,
       'revisioning' => 0,
       'system' => 0,
-      'uc_cart' => 0,
       'user' => 0,
       'views' => 0,
       'webform' => 0,
@@ -1136,6 +1193,7 @@ greywhite|Grey and White',
       'navbar' => 0,
       'content_top' => 0,
       'content_bottom' => 0,
+      'content_bottom_fixed' => 0,
       'header' => 0,
       'footer' => 0,
       'closure_region' => 0,
@@ -1143,13 +1201,15 @@ greywhite|Grey and White',
     'referenceable_modules' => array(
       'menu' => 'menu',
       'menu_block' => 'menu_block',
+      'asu_ldap_roles' => 0,
       'block' => 0,
       'cas' => 0,
-      'devel' => 0,
+      'diff' => 0,
       'node' => 0,
+      'poll' => 0,
+      'profile' => 0,
       'revisioning' => 0,
       'system' => 0,
-      'uc_cart' => 0,
       'user' => 0,
       'views' => 0,
       'webform' => 0,
@@ -1170,6 +1230,539 @@ greywhite|Grey and White',
     ),
   );
 
+  // Exported field: field_hide_content_title
+  $fields['fixed_width_tertiary_page-field_hide_content_title'] = array(
+    'field_name' => 'field_hide_content_title',
+    'type_name' => 'fixed_width_tertiary_page',
+    'display_settings' => array(
+      'weight' => '1',
+      'parent' => '',
+      'label' => array(
+        'format' => 'hidden',
+      ),
+      'teaser' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'display|Display Content Title
+hide|Hide Content Title',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => 'display',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Hide Content Title',
+      'weight' => '32',
+      'description' => 'Check this checkbox to hide the title displayed in the content section.',
+      'type' => 'optionwidgets_onoff',
+      'module' => 'optionwidgets',
+    ),
+  );
+
+  // Exported field: field_hide_navbar
+  $fields['fixed_width_tertiary_page-field_hide_navbar'] = array(
+    'field_name' => 'field_hide_navbar',
+    'type_name' => 'fixed_width_tertiary_page',
+    'display_settings' => array(
+      'weight' => '3',
+      'parent' => '',
+      'label' => array(
+        'format' => 'hidden',
+      ),
+      'teaser' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'display|Display Nav Bar
+hide|Hide Nav Bar',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => 'display',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Hide Navbar',
+      'weight' => '34',
+      'description' => '',
+      'type' => 'optionwidgets_onoff',
+      'module' => 'optionwidgets',
+    ),
+  );
+
+  // Exported field: field_hide_sidebar_left
+  $fields['fixed_width_tertiary_page-field_hide_sidebar_left'] = array(
+    'field_name' => 'field_hide_sidebar_left',
+    'type_name' => 'fixed_width_tertiary_page',
+    'display_settings' => array(
+      'label' => array(
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'display|Display Left Sidebar
+hide|Hide Left Sidebar',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => 'display',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Hide Left Sidebar',
+      'weight' => '56',
+      'description' => '',
+      'type' => 'optionwidgets_onoff',
+      'module' => 'optionwidgets',
+    ),
+  );
+
+  // Exported field: field_html_block_1
+  $fields['fixed_width_tertiary_page-field_html_block_1'] = array(
+    'field_name' => 'field_html_block_1',
+    'type_name' => 'fixed_width_tertiary_page',
+    'display_settings' => array(
+      'weight' => '15',
+      'parent' => 'group_secondary_sidebar',
+      'label' => array(
+        'format' => 'hidden',
+      ),
+      'teaser' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '1',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'rows' => '5',
+      'size' => '60',
+      'default_value' => array(
+        '0' => array(
+          'value' => '',
+          'format' => '2',
+          '_error_element' => 'default_value_widget][field_html_block_1][0][value',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'HTML Block',
+      'weight' => '57',
+      'description' => '',
+      'type' => 'text_textarea',
+      'module' => 'text',
+    ),
+  );
+
+  // Exported field: field_html_block_2
+  $fields['fixed_width_tertiary_page-field_html_block_2'] = array(
+    'field_name' => 'field_html_block_2',
+    'type_name' => 'fixed_width_tertiary_page',
+    'display_settings' => array(
+      'weight' => '12',
+      'parent' => 'group_secondary_sidebar',
+      'label' => array(
+        'format' => 'hidden',
+      ),
+      'teaser' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '1',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'rows' => '5',
+      'size' => 60,
+      'default_value' => array(
+        '0' => array(
+          'value' => '',
+          'format' => '2',
+          '_error_element' => 'default_value_widget][field_html_block_2][0][value',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'HTML Block',
+      'weight' => '59',
+      'description' => '',
+      'type' => 'text_textarea',
+      'module' => 'text',
+    ),
+  );
+
+  // Exported field: field_navbar_color
+  $fields['fixed_width_tertiary_page-field_navbar_color'] = array(
+    'field_name' => 'field_navbar_color',
+    'type_name' => 'fixed_width_tertiary_page',
+    'display_settings' => array(
+      'weight' => '4',
+      'parent' => '',
+      'label' => array(
+        'format' => 'hidden',
+      ),
+      'teaser' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '1',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'blackwhite|Black and White
+goldwhite|Gold and White
+goldgrey|Gold and Grey',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => '',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Navbar Color',
+      'weight' => '36',
+      'description' => '',
+      'type' => 'optionwidgets_buttons',
+      'module' => 'optionwidgets',
+    ),
+  );
+
+  // Exported field: field_navbar_menu
+  $fields['fixed_width_tertiary_page-field_navbar_menu'] = array(
+    'field_name' => 'field_navbar_menu',
+    'type_name' => 'fixed_width_tertiary_page',
+    'display_settings' => array(
+      'weight' => '13',
+      'parent' => '',
+      'label' => array(
+        'format' => 'hidden',
+      ),
+      'teaser' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'blockreference',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'blockreference',
+    'active' => '1',
+    'referenceable_regions' => array(
+      '' => 0,
+      'left' => 0,
+      'right' => 0,
+      'navbar' => 0,
+      'content_top' => 0,
+      'content_bottom' => 0,
+      'content_bottom_fixed' => 0,
+      'header' => 0,
+      'footer' => 0,
+      'closure_region' => 0,
+    ),
+    'referenceable_modules' => array(
+      'menu' => 'menu',
+      'asu_ldap_roles' => 0,
+      'block' => 0,
+      'cas' => 0,
+      'diff' => 0,
+      'menu_block' => 0,
+      'node' => 0,
+      'poll' => 0,
+      'profile' => 0,
+      'revisioning' => 0,
+      'system' => 0,
+      'user' => 0,
+      'views' => 0,
+      'webform' => 0,
+    ),
+    'referenceable_operator' => 'OR',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'bid' => '0',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Navbar Menu',
+      'weight' => '35',
+      'description' => '',
+      'type' => 'blockreference_select_sort',
+      'module' => 'blockreference',
+    ),
+  );
+
+  // Exported field: field_sidebar_menu
+  $fields['fixed_width_tertiary_page-field_sidebar_menu'] = array(
+    'field_name' => 'field_sidebar_menu',
+    'type_name' => 'fixed_width_tertiary_page',
+    'display_settings' => array(
+      'weight' => '20',
+      'parent' => '',
+      'label' => array(
+        'format' => 'hidden',
+      ),
+      'teaser' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'blockreference',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'blockreference',
+    'active' => '1',
+    'referenceable_regions' => array(
+      '' => 0,
+      'left' => 0,
+      'right' => 0,
+      'navbar' => 0,
+      'content_top' => 0,
+      'content_bottom' => 0,
+      'content_bottom_fixed' => 0,
+      'header' => 0,
+      'footer' => 0,
+      'closure_region' => 0,
+    ),
+    'referenceable_modules' => array(
+      'menu' => 'menu',
+      'menu_block' => 'menu_block',
+      'asu_ldap_roles' => 0,
+      'block' => 0,
+      'cas' => 0,
+      'diff' => 0,
+      'node' => 0,
+      'poll' => 0,
+      'profile' => 0,
+      'revisioning' => 0,
+      'system' => 0,
+      'user' => 0,
+      'views' => 0,
+      'webform' => 0,
+    ),
+    'referenceable_operator' => 'OR',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'bid' => '0',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Sidebar Menu',
+      'weight' => '58',
+      'description' => '',
+      'type' => 'blockreference_select_sort',
+      'module' => 'blockreference',
+    ),
+  );
+
+  // Exported field: field_tertiary_main_content
+  $fields['fixed_width_tertiary_page-field_tertiary_main_content'] = array(
+    'field_name' => 'field_tertiary_main_content',
+    'type_name' => 'fixed_width_tertiary_page',
+    'display_settings' => array(
+      'weight' => '54',
+      'parent' => 'group_tertiary_main_content',
+      'label' => array(
+        'format' => 'hidden',
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 1,
+      ),
+      'full' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '1',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '1',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'rows' => '10',
+      'size' => '60',
+      'default_value' => array(
+        '0' => array(
+          'value' => '',
+          '_error_element' => 'default_value_widget][field_tertiary_main_content][0][value',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Main Content',
+      'weight' => '54',
+      'description' => '',
+      'type' => 'text_textarea',
+      'module' => 'text',
+    ),
+  );
+
   // Translatables
   // Included for use with string extractors like potx.
   t('Banner image');
@@ -1178,8 +1771,10 @@ greywhite|Grey and White',
   t('Hide Content Title');
   t('Hide Left Sidebar');
   t('Hide Nav Bar');
+  t('Hide Navbar');
   t('Main Content');
   t('Nav Bar Color');
+  t('Navbar Color');
   t('Navbar Menu');
   t('Show Banner Text');
   t('Show Banner Title');
