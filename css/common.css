@@ -1,234 +1,62 @@
-body.menu-colors #content-area {
-  font-family: Arial,Helvetica,sans-serif;
-  margin-left: 36px;
-  padding: 19px 30px 0 30px; }
-  body.menu-colors #content-area h1, body.menu-colors #content-area .node-type-fixed-width-landing-page h2.title {
-    color: #ffb310;
-    font-size: 36px !important;
-    font-weight: bold;
-    line-height: 36px;
-    margin-bottom: 20px;
-    height: 100%; }
-  body.menu-colors #content-area h2, body.menu-colors #content-area .node-type-fixed-width-secondary-page h2.title {
-    color: #ffb310;
-    font-size: 26px !important; }
-  body.menu-colors #content-area h2, body.menu-colors #content-area h3 {
-    font-weight: bold;
-    line-height: 30px;
-    margin-bottom: 15px;
-    text-transform: none; }
-  body.menu-colors #content-area h3 {
-    color: #ffb310;
-    font-size: 26px;
-    text-transform: none;
-    letter-spacing: 0px; }
-  body.menu-colors #content-area h4 {
-    color: #333;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0;
-    line-height: 16px;
-    margin-bottom: 10px; }
-  body.menu-colors #content-area a {
-    color: #903; }
-    body.menu-colors #content-area a:hover {
-      color: black; }
+/*
+Syntax error: Invalid CSS after "}": expected "}", was ""
+        on line 306 of ./common.scss
 
-.front h1 {
-  color: #FFB411;
-  font-size: 2.2em;
-  line-height: 1.1em;
-  margin-bottom: 10px;
-  width: 100%; }
+301: .cf-right-col {
+302:   float: left;
+303:   margin: 0;
+304:   width: 300px; 
+305: }
 
-body.node-type-fixed-width-landing-page #content-area {
-  margin-left: 0px; }
-
-body.menu-colors-hide-sidebar-left #content-area {
-  margin-left: 0px; }
-
-body.section-welldevils #content-area {
-  padding: 34px 30px 0 30px; }
-
-.menu-colors .node-type-fixed-width-secondary-page #sidebar-left,
-.menu-colors .node-type-fluid-width-secondary-page #sidebar-left {
-  padding-top: 0px; }
-
-.menu-colors .node-inner {
-  margin-right: 130px; }
-
-body.node-type-fixed-width-landing-page .node-inner {
-  margin-right: 0px; }
-
-.menu-colors-hide-sidebar-left .node-inner {
-  margin-right: 0px; }
-
-/* OTHER TEXT STYLES */
-.text-style-1 {
-  color: #666;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px; }
-  .text-style-1 a {
-    border-bottom: 1px dotted #990033;
-    color: #990033; }
-    .text-style-1 a:hover {
-      border-bottom: 0px;
-      color: #000; }
-
-.text-style-2 {
-  color: #666;
-  font-size: 12px;
-  font-weight: normal;
-  letter-spacing: 0;
-  line-height: 18px; }
-  .text-style-2 a {
-    border-bottom: 1px dotted #990033;
-    color: #990033; }
-    .text-style-2 a:hover {
-      border-bottom: 0px;
-      color: #000; }
-
-ul.text-style-2 li {
-  color: #990033;
-  font-size: 12px;
-  font-weight: normal;
-  letter-spacing: 0;
-  line-height: 18px; }
-  ul.text-style-2 li a {
-    border-bottom: dashed 1px #990033;
-    color: #990033; }
-
-/******************************************************************************
- * LEFT SIDEBAR NAV
- ******************************************************************************
+Backtrace:
+./common.scss:306
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:1130:in `expected'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:1066:in `expected'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:1061:in `tok!'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:519:in `block'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:512:in `ruleset'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:574:in `declaration_or_ruleset'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:1104:in `call'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:1104:in `rethrow'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:575:in `declaration_or_ruleset'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:537:in `block_child'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:529:in `block_contents'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:518:in `block'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:512:in `ruleset'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:536:in `block_child'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:529:in `block_contents'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:70:in `stylesheet'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:27:in `parse'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/engine.rb:342:in `_to_tree'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/engine.rb:315:in `_render'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/engine.rb:262:in `render'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:340:in `update_stylesheet'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:202:in `update_stylesheets'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `each'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `update_stylesheets'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:298:in `watch'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:86:in `call'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:86:in `on_change'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:95:in `initialize_adapter'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:55:in `call'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:55:in `poll'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:31:in `start'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:31:in `initialize'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:31:in `new'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:31:in `start'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:44:in `start'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:306:in `watch'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin.rb:107:in `send'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/exec.rb:431:in `watch_or_update'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/exec.rb:302:in `process_result'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/exec.rb:41:in `parse'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
+/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/sass:8
+/usr/bin/sass:19:in `load'
+/usr/bin/sass:19
 */
-#block-views-632c02ef065305bc3a4fbc81affb43d9 {
-  font-size: 16px;
-  line-height: 25px;
-  margin-bottom: 15px;
-  margin-left: 20px;
-  margin-top: 14px;
-  width: 165px; }
-  #block-views-632c02ef065305bc3a4fbc81affb43d9 h2.title {
-    border-bottom: none;
-    font-size: 24px !important;
-    font-weight: bold;
-    line-height: 30px;
-    margin-bottom: -20px;
-    margin-left: 10px;
-    padding-top: 8px; }
-  #block-views-632c02ef065305bc3a4fbc81affb43d9 li {
-    list-style: none;
-    line-height: 20px;
-    padding-bottom: 3px;
-    padding-right: 10px;
-    padding-left: 20px;
-    margin: 0; }
-    #block-views-632c02ef065305bc3a4fbc81affb43d9 li a {
-      text-decoration: none;
-      border-bottom: none; }
-  #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu {
-    padding: 0 0 0.25em 1em; }
-    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.last {
-      font-size: 14px;
-      font-weight: bold;
-      line-height: 20px;
-      margin: 0px;
-      padding: 0px;
-      padding-top: 6px; }
-    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first {
-      padding-top: 23px; }
-    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.last {
-      padding-bottom: 30px; }
-    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu {
-      padding: 0px; }
-      #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.last {
-        font-size: 12px;
-        font-weight: normal;
-        padding-top: 6px; }
-  #block-views-632c02ef065305bc3a4fbc81affb43d9 ul ul ul li {
-    line-height: 20px; }
-
-/* NAVBAR/MAIN MENU */
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 li.expanded ul.menu, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 li.collapsed ul.menu {
-  display: none; }
-
-.menu-colors #sidebar-left a:hover {
-  text-decoration: none; }
-
-#block-views-sidebar_menu-block_1 ul ul ul ul {
-  margin-left: 10px; }
-
-.two-sidebars #content-inner {
-  padding-left: 250px;
-  /* The width + left margin of #sidebar-left. */
-  padding-right: 215px;
-  /* The width + right margin of #sidebar-right. */ }
-
-body.fixed-second #sidebar-left-inner, body.node-type-fluid-width-secondary-page #sidebar-left-inner {
-  margin: 0; }
-
-body.fixed-second #sidebar-left-inner, .node-type-fluid-width-secondary-page #sidebar-left-inner {
-  margin: 0px; }
-
-body.node-type-fixed-secondary-page #sidebar-left, body.node-type-fluid-width-secondary-page #sidebar-left {
-  background-color: white;
-  width: 200px; }
-
-body.node-type-fixed-secondary-page #content-inner, body.node-type-fluid-width-secondary-page #content-inner {
-  padding-left: 200px; }
-
-body.node-type-fixed-secondary-page #block-views-sidebar_html_1-block_1, body.node-type-fluid-width-secondary-page #block-views-sidebar_html_1-block_1 {
-  margin-bottom: 0; }
-
-hr {
-  width: 100%; }
-
-.node-type-fixed-width-secondary-page #sidebar-left-inner, .node-type-fluid-width-secondary-page #sidebar-left-inner {
-  margin: 0px !important; }
-
-body.node-type-fixed-width-secondary-page #block-views-sidebar_html_1-block_1, body.node-type-fluid-width-secondary-page #block-views-sidebar_html_1-block_1 {
-  margin-bottom: 0px; }
-
-body.node-type-fixed-width-secondary-page #sidebar-left, body.node-type-fluid-width-secondary-page #sidebar-left {
-  padding-top: 0px;
-  width: 229px; }
-
-body.node-type-fixed-width-secondary-page #content-inner, body.node-type-fluid-width-secondary-page #content-inner {
-  padding-left: 163px; }
-
-#hp-container {
-  background-color: white;
-  margin: 0;
-  padding: 0 10px;
-  width: 1000px; }
-  #hp-container ul {
-    list-style-type: none;
-    margin: 0; }
-
-.cf-left-col {
-  float: left;
-  margin: 10px 10px 0 40px;
-  width: 550px; }
-
-.cf-center-col {
-  float: left;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  margin: 0px 20px 0 60px;
-  padding-left: 25px;
-  width: 200px; }
-  .cf-center-col ul {
-    padding: 10px 0 0 0;
-    margin: 0 0 10px 0; }
-    .cf-center-col ul li {
-      list-style-type: none;
-      padding: 0px 0;
-      margin: 0; }
-
-.cf-right-col {
-  float: left;
-  margin: 0;
-  width: 300px; }
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid CSS after \"}\": expected \"}\", was \"\"\A         on line 306 of ./common.scss\A \A 301: .cf-right-col {\A 302:   float: left;\A 303:   margin: 0;\A 304:   width: 300px; \A 305: }"; }

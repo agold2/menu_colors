@@ -12,9 +12,15 @@ body.menu-colors #content-area {
    margin-bottom: 20px;
    height: 100%;
   }
+  h2 {
+    color: #333;
+  {
   h2, .node-type-fixed-width-secondary-page h2.title {
-    color: $gold;
     font-size: 26px !important;
+  }
+  .node-type-fixed-width-secondary-page h2.title {
+    color: $gold;
+    font-size: 36px !important;
   }
   h2, h3 {
     font-weight: bold;
