@@ -50,14 +50,6 @@ body.menu-colors #content-area {
   }
 }
 
-.front h1 {
-  color: #FFB411;
-  font-size: 2.2em;
-  line-height: 1.1em;
-  margin-bottom: 10px;
-  width: 100%;
-}
-
 body.node-type-fixed-width-landing-page #content-area {
   margin-left: 0px;
 }
@@ -90,11 +82,8 @@ body.node-type-fixed-width-landing-page .node-inner {
 
 /* OTHER TEXT STYLES */
 
-.text-style-1 {
+.text-style-1, .text-style-2 {
   color: #666;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px;
   a {
     border-bottom: 1px dotted #990033;
     color: #990033;
@@ -105,21 +94,18 @@ body.node-type-fixed-width-landing-page .node-inner {
     }
   }
 }
+
+.text-style-1 {
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  }
   
 .text-style-2 {
-  color: #666;
+  line-height: 18px;
   font-size: 12px;
   font-weight: normal;
   letter-spacing: 0;
-  line-height: 18px;
-  a {
-    border-bottom: 1px dotted #990033;
-    color: #990033;
-    &:hover {
-      border-bottom: 0px;
-      color: #000;
-    }
-  }
 }
 
 ul.text-style-2 li {

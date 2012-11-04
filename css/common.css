@@ -38,13 +38,6 @@ body.menu-colors #content-area {
     body.menu-colors #content-area a:hover {
       color: black; }
 
-.front h1 {
-  color: #FFB411;
-  font-size: 2.2em;
-  line-height: 1.1em;
-  margin-bottom: 10px;
-  width: 100%; }
-
 body.node-type-fixed-width-landing-page #content-area {
   margin-left: 0px; }
 
@@ -68,31 +61,26 @@ body.node-type-fixed-width-landing-page .node-inner {
   margin-right: 0px; }
 
 /* OTHER TEXT STYLES */
-.text-style-1 {
-  color: #666;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 20px; }
-  .text-style-1 a {
+.text-style-1, .text-style-2 {
+  color: #666; }
+  .text-style-1 a, .text-style-2 a {
     border-bottom: 1px dotted #990033;
     color: #990033;
     text-decoration: none; }
-    .text-style-1 a:hover {
+    .text-style-1 a:hover, .text-style-2 a:hover {
       border-bottom: 0px;
       color: #000; }
 
+.text-style-1 {
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: bold; }
+
 .text-style-2 {
-  color: #666;
+  line-height: 18px;
   font-size: 12px;
   font-weight: normal;
-  letter-spacing: 0;
-  line-height: 18px; }
-  .text-style-2 a {
-    border-bottom: 1px dotted #990033;
-    color: #990033; }
-    .text-style-2 a:hover {
-      border-bottom: 0px;
-      color: #000; }
+  letter-spacing: 0; }
 
 ul.text-style-2 li {
   color: #990033;
