@@ -199,7 +199,7 @@ body.node-type-fixed-width-secondary-page #content-inner, body.node-type-fluid-w
 
 .cf-left-col {
   float: left;
-  margin: 10px 10px 0 40px;
+  margin: 0px;
   width: 550px; }
 
 .cf-center-col {
