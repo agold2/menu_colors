@@ -25,7 +25,8 @@ body.menu-colors #content-area {
     color: #ffb310;
     font-size: 26px;
     text-transform: none;
-    letter-spacing: 0px; }
+    letter-spacing: 0px;
+    margin-top: 0px; }
   body.menu-colors #content-area h4 {
     color: #333;
     font-size: 14px;
