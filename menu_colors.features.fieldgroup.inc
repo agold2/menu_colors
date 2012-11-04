@@ -124,7 +124,8 @@ function menu_colors_fieldgroup_default_groups() {
       '0' => 'field_hide_sidebar_left',
       '1' => 'field_html_block_1',
       '2' => 'field_sidebar_menu',
-      '3' => 'field_html_block_2',
+      '3' => 'field_sidebar_color',
+      '4' => 'field_html_block_2',
     ),
   );
 

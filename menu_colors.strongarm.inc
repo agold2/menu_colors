@@ -40,13 +40,13 @@ function menu_colors_strongarm() {
   $strongarm->api_version = 1;
   $strongarm->name = 'content_extra_weights_fixed_width_tertiary_page';
   $strongarm->value = array(
-    'title' => '31',
-    'revision_information' => '40',
-    'author' => '41',
-    'options' => '42',
-    'menu' => '39',
-    'taxonomy' => '33',
-    'path' => '43',
+    'title' => '43',
+    'revision_information' => '49',
+    'author' => '50',
+    'options' => '51',
+    'menu' => '48',
+    'taxonomy' => '45',
+    'path' => '52',
     'attachments' => '30',
   );
   $export['content_extra_weights_fixed_width_tertiary_page'] = $strongarm;

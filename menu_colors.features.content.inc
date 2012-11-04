@@ -1493,7 +1493,7 @@ hide|Hide Left Sidebar',
       ),
       'default_value_php' => NULL,
       'label' => 'HTML Block',
-      'weight' => '59',
+      'weight' => '60',
       'description' => '',
       'type' => 'text_textarea',
       'module' => 'text',
@@ -1628,6 +1628,61 @@ goldgrey|Gold and Grey',
       'description' => '',
       'type' => 'blockreference_select_sort',
       'module' => 'blockreference',
+    ),
+  );
+
+  // Exported field: field_sidebar_color
+  $fields['fixed_width_tertiary_page-field_sidebar_color'] = array(
+    'field_name' => 'field_sidebar_color',
+    'type_name' => 'fixed_width_tertiary_page',
+    'display_settings' => array(
+      'weight' => '17',
+      'parent' => 'group_secondary_sidebar',
+      'label' => array(
+        'format' => 'above',
+      ),
+      'teaser' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '1',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'blackwhite|Black and White
+whitegrey|White and Grey
+goldwhite|Gold and White
+greywhite|Grey and White',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => '',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Sidebar Color',
+      'weight' => '59',
+      'description' => '',
+      'type' => 'optionwidgets_buttons',
+      'module' => 'optionwidgets',
     ),
   );
 
