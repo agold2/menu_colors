@@ -163,6 +163,20 @@ ul.text-style-2 li {
   }
   ul.menu { 
     padding: 0 0 0.25em 1em;
+    li, li.first, li.last {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 20px;
+      margin:0px;
+      padding: 0px;
+      padding-top: 6px;
+    }
+    li.first {
+      padding-top: 23px;
+    }
+    li.last {
+      padding-bottom: 30px;
+    }
     ul.menu {
       padding: 0px;
       li, li.first, li.last {
@@ -171,21 +185,6 @@ ul.text-style-2 li {
       }
     }
   }
-  ul.menu li.first {
-    padding-top: 23px;
-  }
-  ul.menu li.last {
-    padding-bottom: 30px;
-  }
-  ul.menu li, ul.menu ul li.first, ul.menu ul li.last {
-    font-size: 14px;
-    font-weight: bold;
-    line-height: 20px;
-    margin:0px;
-    padding: 0px;
-    padding-top: 6px;
-  }
-
   ul ul ul li {
    line-height: 20px;
   }
