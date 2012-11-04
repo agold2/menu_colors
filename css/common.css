@@ -145,7 +145,8 @@ ul.text-style-2 li {
       padding: 0px; }
       #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.last {
         font-size: 12px;
-        font-weight: normal; }
+        font-weight: normal;
+        padding-top: 6px; }
   #block-views-632c02ef065305bc3a4fbc81affb43d9 ul ul ul li {
     line-height: 20px; }
 
