@@ -120,7 +120,7 @@ ul.text-style-2 li {
       text-decoration: none;
       border-bottom: none; }
   #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu {
-    padding: 0 0 0.25em 1em; }
+    padding: 0 0 30px 1em; }
     #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.last {
       font-size: 14px;
       font-weight: bold;
@@ -130,8 +130,6 @@ ul.text-style-2 li {
       padding-top: 6px; }
     #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first {
       padding-top: 23px; }
-    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.last {
-      padding-bottom: 30px; }
     #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu {
       padding: 0px; }
       #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.last {
