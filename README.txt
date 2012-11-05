@@ -8,10 +8,7 @@ Arizona State University by Ariel Gold.
 
 * Uses CCK to let user choose color
 
-Experminted with moving CSS to SASS. Some of the SASS is just plain CSS.
+Experimented with moving CSS to SASS. Some of the SASS is just plain CSS.
 
 TODO: 
-+ Take advantage of SASS fully
-+ Cleanup SASS. It can be simplified a lot. Because we were not provided
-mockups at all, or for some pages very late, didn't understand requirements
-and kept guessing. Now that the style is finalized needs a complete rewrite/cleanup.
++ Take advantage of SASS fully, navbar css files not using SASS at all
