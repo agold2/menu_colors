@@ -1,11 +1,13 @@
 Drupal.behaviors.myModule = function(context) {
 
 
-var x = distributeCategoryLinkness('.view-landing-page-menu-blockreference .item-list','.view-landing-page-menu-blockreference .item-list div.block-menu li a');
 
-function distributeCategoryLinkness(container, line) 
+var links = $(".view-landing-page-menu-blockreference .item-list div.block-menu ul li a").not('.view-landing-page-menu-blockreference .item-list div.block-menu ul li ul li a');
+
+distributeCategoryLinks('.view-landing-page-menu-blockreference .item-list', links);
+
+function distributeCategoryLinks(container, links) 
 {
-  var links = line;
   var containerWidth = $(container).width();
   containerWidth = containerWidth - 23; 
   var listWidth = 0;
