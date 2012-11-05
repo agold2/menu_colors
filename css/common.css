@@ -142,8 +142,12 @@ ul.text-style-2 li {
     line-height: 20px; }
 
 /* NAVBAR/MAIN MENU */
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 li.expanded ul.menu, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 li.collapsed ul.menu {
-  display: none; }
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 {
+  font-family: Arial, Helvetica, sans-serif; }
+  #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu {
+    display: inline; }
+  #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 li.expanded ul.menu, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 li.collapsed ul.menu {
+    display: none; }
 
 .menu-colors #sidebar-left a:hover {
   text-decoration: none; }

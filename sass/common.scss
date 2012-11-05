@@ -183,6 +183,10 @@ ul.text-style-2 li {
 
 /* NAVBAR/MAIN MENU */
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 {
+  font-family: Arial, Helvetica, sans-serif;
+  ul.menu {
+    display: inline;
+  }
   li.expanded ul.menu, li.collapsed ul.menu {
   display: none;
   }
