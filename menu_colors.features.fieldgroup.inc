@@ -61,7 +61,8 @@ function menu_colors_fieldgroup_default_groups() {
         'description' => '',
       ),
       'display' => array(
-        'description' => '',
+        'weight' => '38',
+        'label' => 'hidden',
         'teaser' => array(
           'format' => 'fieldset',
           'exclude' => 1,
@@ -70,6 +71,7 @@ function menu_colors_fieldgroup_default_groups() {
           'format' => 'simple',
           'exclude' => 0,
         ),
+        'description' => '',
         '4' => array(
           'format' => 'fieldset',
           'exclude' => 0,
@@ -78,7 +80,6 @@ function menu_colors_fieldgroup_default_groups() {
           'format' => 'fieldset',
           'exclude' => 0,
         ),
-        'label' => 'hidden',
       ),
     ),
     'weight' => '38',
@@ -99,7 +100,8 @@ function menu_colors_fieldgroup_default_groups() {
         'description' => '',
       ),
       'display' => array(
-        'description' => '',
+        'weight' => '37',
+        'label' => 'hidden',
         'teaser' => array(
           'format' => 'hidden',
           'exclude' => 1,
@@ -108,6 +110,7 @@ function menu_colors_fieldgroup_default_groups() {
           'format' => 'simple',
           'exclude' => 0,
         ),
+        'description' => '',
         '4' => array(
           'format' => 'fieldset',
           'exclude' => 0,
@@ -116,7 +119,6 @@ function menu_colors_fieldgroup_default_groups() {
           'format' => 'fieldset',
           'exclude' => 0,
         ),
-        'label' => 'hidden',
       ),
     ),
     'weight' => '37',

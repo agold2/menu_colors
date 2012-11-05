@@ -1235,7 +1235,7 @@ greywhite|Grey and White',
     'field_name' => 'field_hide_content_title',
     'type_name' => 'fixed_width_tertiary_page',
     'display_settings' => array(
-      'weight' => '1',
+      'weight' => '32',
       'parent' => '',
       'label' => array(
         'format' => 'hidden',
@@ -1288,7 +1288,7 @@ hide|Hide Content Title',
     'field_name' => 'field_hide_navbar',
     'type_name' => 'fixed_width_tertiary_page',
     'display_settings' => array(
-      'weight' => '3',
+      'weight' => '34',
       'parent' => '',
       'label' => array(
         'format' => 'hidden',
@@ -1341,16 +1341,17 @@ hide|Hide Nav Bar',
     'field_name' => 'field_hide_sidebar_left',
     'type_name' => 'fixed_width_tertiary_page',
     'display_settings' => array(
+      'weight' => '56',
+      'parent' => 'group_tertiary_sidebar',
       'label' => array(
         'format' => 'above',
-        'exclude' => 0,
       ),
       'teaser' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
       'full' => array(
-        'format' => 'default',
+        'format' => 'hidden',
         'exclude' => 0,
       ),
       '4' => array(
@@ -1393,8 +1394,8 @@ hide|Hide Left Sidebar',
     'field_name' => 'field_html_block_1',
     'type_name' => 'fixed_width_tertiary_page',
     'display_settings' => array(
-      'weight' => '15',
-      'parent' => 'group_secondary_sidebar',
+      'weight' => '57',
+      'parent' => 'group_tertiary_sidebar',
       'label' => array(
         'format' => 'hidden',
       ),
@@ -1449,8 +1450,8 @@ hide|Hide Left Sidebar',
     'field_name' => 'field_html_block_2',
     'type_name' => 'fixed_width_tertiary_page',
     'display_settings' => array(
-      'weight' => '12',
-      'parent' => 'group_secondary_sidebar',
+      'weight' => '60',
+      'parent' => 'group_tertiary_sidebar',
       'label' => array(
         'format' => 'hidden',
       ),
@@ -1505,7 +1506,7 @@ hide|Hide Left Sidebar',
     'field_name' => 'field_navbar_color',
     'type_name' => 'fixed_width_tertiary_page',
     'display_settings' => array(
-      'weight' => '4',
+      'weight' => '36',
       'parent' => '',
       'label' => array(
         'format' => 'hidden',
@@ -1559,7 +1560,7 @@ goldgrey|Gold and Grey',
     'field_name' => 'field_navbar_menu',
     'type_name' => 'fixed_width_tertiary_page',
     'display_settings' => array(
-      'weight' => '13',
+      'weight' => '35',
       'parent' => '',
       'label' => array(
         'format' => 'hidden',
@@ -1636,8 +1637,8 @@ goldgrey|Gold and Grey',
     'field_name' => 'field_sidebar_color',
     'type_name' => 'fixed_width_tertiary_page',
     'display_settings' => array(
-      'weight' => '17',
-      'parent' => 'group_secondary_sidebar',
+      'weight' => '59',
+      'parent' => 'group_tertiary_sidebar',
       'label' => array(
         'format' => 'above',
       ),
@@ -1691,8 +1692,8 @@ greywhite|Grey and White',
     'field_name' => 'field_sidebar_menu',
     'type_name' => 'fixed_width_tertiary_page',
     'display_settings' => array(
-      'weight' => '20',
-      'parent' => '',
+      'weight' => '58',
+      'parent' => 'group_tertiary_sidebar',
       'label' => array(
         'format' => 'hidden',
       ),

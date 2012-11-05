@@ -47,7 +47,6 @@ function menu_colors_strongarm() {
     'menu' => '48',
     'taxonomy' => '45',
     'path' => '52',
-    'attachments' => '30',
   );
   $export['content_extra_weights_fixed_width_tertiary_page'] = $strongarm;
 
