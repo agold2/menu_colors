@@ -1,44 +1,44 @@
-body.menu-colors #content-area {
+body.menu-colors, body.menu-colors #content-area {
   font-family: Arial,Helvetica,sans-serif;
   margin-left: 36px;
   padding: 17px 30px 0 30px; }
-  body.menu-colors #content-area h1, body.menu-colors #content-area .node-type-fixed-width-landing-page h2.title {
+  body.menu-colors h1, body.menu-colors .node-type-fixed-width-landing-page h2.title, body.menu-colors #content-area h1, body.menu-colors #content-area .node-type-fixed-width-landing-page h2.title {
     color: #ffb310;
     font-size: 36px !important;
     font-weight: bold;
     line-height: 36px;
     margin-bottom: 20px;
     height: 100%; }
-  body.menu-colors #content-area h2 {
+  body.menu-colors h2, body.menu-colors #content-area h2 {
     color: #333; }
-  body.menu-colors #content-area h2, body.menu-colors #content-area .node-type-fixed-width-secondary-page h2.title {
+  body.menu-colors h2, body.menu-colors .node-type-fixed-width-secondary-page h2.title, body.menu-colors #content-area h2, body.menu-colors #content-area .node-type-fixed-width-secondary-page h2.title {
     font-size: 26px !important; }
-  body.menu-colors #content-area .node-type-fixed-width-secondary-page h2.title {
+  body.menu-colors .node-type-fixed-width-secondary-page h2.title, body.menu-colors #content-area .node-type-fixed-width-secondary-page h2.title {
     color: #ffb310;
     font-size: 36px !important; }
-  body.menu-colors #content-area h2, body.menu-colors #content-area h3 {
+  body.menu-colors h2, body.menu-colors h3, body.menu-colors #content-area h2, body.menu-colors #content-area h3 {
     font-weight: bold;
     line-height: 30px;
     margin-bottom: 15px;
     text-transform: none; }
-  body.menu-colors #content-area h3, body.menu-colors #content-area h4 {
+  body.menu-colors h3, body.menu-colors h4, body.menu-colors #content-area h3, body.menu-colors #content-area h4 {
     border-bottom: none; }
-  body.menu-colors #content-area h3 {
+  body.menu-colors h3, body.menu-colors #content-area h3 {
     color: #ffb310;
     font-size: 26px;
     text-transform: none;
     letter-spacing: 0px;
     margin-top: 0px; }
-  body.menu-colors #content-area h4 {
+  body.menu-colors h4, body.menu-colors #content-area h4 {
     color: #333;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0;
     line-height: 16px;
     margin-bottom: 10px; }
-  body.menu-colors #content-area a {
+  body.menu-colors a, body.menu-colors #content-area a {
     color: #903; }
-    body.menu-colors #content-area a:hover {
+    body.menu-colors a:hover, body.menu-colors #content-area a:hover {
       color: black; }
 
 body.node-type-fixed-width-landing-page #content-area {
