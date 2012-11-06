@@ -20,7 +20,7 @@ function menu_colors_nodeapi(&$node, $op, $a3 = NULL, $a4 = NULL) {
           drupal_add_css(drupal_get_path('module', 'menu_colors') . '/css/navbar/menu_colors_navbar_hide.css');
         }
 			}
-      $pages = array('fixed_width_secondary_page', 'fluid_width_secondary_page', 'fixed_width_tertiary_page', 'fluid_width_tertiary_page');
+      $pages = array('fixed_width_landing_page', 'fixed_width_secondary_page', 'fluid_width_secondary_page', 'fixed_width_tertiary_page', 'fluid_width_tertiary_page');
 			if (in_array($node->type, $pages)) {
         $color = $node->field_sidebar_color[0]['value'];
         if ($color) {
@@ -43,8 +43,13 @@ function menu_colors_preprocess(&$vars) {
   if (in_array($vars['node']->type, $pages)) {
     $vars['body_classes'] .= ' menu-colors';
   }
+  
   if ($vars['node']->field_hide_sidebar_left[0]['value'] == 'hide') { 
     $vars['body_classes'] .= ' menu-colors-hide-sidebar-left';
+  }
+   
+  if (($vars['node']->type == 'fixed_width_landing_page') && ($vars['node']->field_hide_sidebar_left[0]['value'] != 'hide')) {
+    $vars['body_classes'] .= ' menu-colors-sidebar-right';
   }
 }
 

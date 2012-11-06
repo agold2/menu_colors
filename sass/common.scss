@@ -3,7 +3,7 @@ $gold: #ffb310;
 body.menu-colors #content-area {
   font-family: Arial,Helvetica,sans-serif;
   margin-left: 36px;
-  padding: 19px 30px 0 30px;
+  padding: 17px 30px 0 30px;
   h1, .node-type-fixed-width-landing-page h2.title {
    color: $gold;
    font-size: 36px !important;
@@ -250,3 +250,25 @@ body.node-type-fixed-width-secondary-page #sidebar-left, body.node-type-fluid-wi
 body.node-type-fixed-width-secondary-page #content-inner, body.node-type-fluid-width-secondary-page #content-inner { 
   padding-left: 163px;
 }
+
+/* Sidebar right: use sidebar-left */
+body.menu-colors-sidebar-right {
+  #sidebar-left {
+    float: right;
+    margin: 16px 18px 0 -300px;
+    width: 270px;
+  }
+  #content-inner {
+   padding-right: 276px;
+   padding-left: 0;
+  }
+  #content-area {
+    padding: 17px 54px 0 30px;
+  }
+}
+
+
+
+
+
+
