@@ -12,11 +12,13 @@ function menu_colors_strongarm() {
   $strongarm->name = 'content_extra_weights_fixed_width_landing_page';
   $strongarm->value = array(
     'title' => '-2',
-    'revision_information' => '6',
-    'author' => '7',
-    'options' => '8',
-    'menu' => '5',
-    'path' => '9',
+    'revision_information' => '8',
+    'author' => '9',
+    'options' => '10',
+    'menu' => '6',
+    'taxonomy' => '-3',
+    'path' => '11',
+    'attachments' => '12',
   );
   $export['content_extra_weights_fixed_width_landing_page'] = $strongarm;
 
@@ -32,6 +34,7 @@ function menu_colors_strongarm() {
     'menu' => '6',
     'taxonomy' => '3',
     'path' => '10',
+    'attachments' => '30',
   );
   $export['content_extra_weights_fixed_width_secondary_page'] = $strongarm;
 

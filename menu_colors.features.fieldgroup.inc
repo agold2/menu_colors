@@ -6,6 +6,47 @@
 function menu_colors_fieldgroup_default_groups() {
   $groups = array();
 
+  // Exported group: group_landing_sidebar
+  $groups['fixed_width_landing_page-group_landing_sidebar'] = array(
+    'group_type' => 'standard',
+    'type_name' => 'fixed_width_landing_page',
+    'group_name' => 'group_landing_sidebar',
+    'label' => 'Sidebar',
+    'settings' => array(
+      'form' => array(
+        'style' => 'fieldset',
+        'description' => '',
+      ),
+      'display' => array(
+        'weight' => '5',
+        'label' => 'above',
+        'teaser' => array(
+          'format' => 'fieldset',
+          'exclude' => 0,
+        ),
+        'full' => array(
+          'format' => 'fieldset',
+          'exclude' => 0,
+        ),
+        'description' => '',
+        '4' => array(
+          'format' => 'fieldset',
+          'exclude' => 0,
+        ),
+        'token' => array(
+          'format' => 'fieldset',
+          'exclude' => 0,
+        ),
+      ),
+    ),
+    'weight' => '5',
+    'fields' => array(
+      '0' => 'field_hide_sidebar_left',
+      '1' => 'field_html_block_1',
+      '2' => 'field_html_block_2',
+    ),
+  );
+
   // Exported group: group_secondary_sidebar
   $groups['fixed_width_secondary_page-group_secondary_sidebar'] = array(
     'group_type' => 'standard',
@@ -41,11 +82,12 @@ function menu_colors_fieldgroup_default_groups() {
     ),
     'weight' => '6',
     'fields' => array(
-      '0' => 'field_hide_sidebar_left',
-      '1' => 'field_html_block_1',
-      '2' => 'field_sidebar_menu',
-      '3' => 'field_sidebar_color',
-      '4' => 'field_html_block_2',
+      '0' => 'field_sidebar_position',
+      '1' => 'field_hide_sidebar_left',
+      '2' => 'field_html_block_1',
+      '3' => 'field_sidebar_menu',
+      '4' => 'field_sidebar_color',
+      '5' => 'field_html_block_2',
     ),
   );
 
