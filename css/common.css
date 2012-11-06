@@ -21,6 +21,8 @@ body.menu-colors #content-area {
     line-height: 30px;
     margin-bottom: 15px;
     text-transform: none; }
+  body.menu-colors #content-area h3, body.menu-colors #content-area h4 {
+    border-bottom: none; }
   body.menu-colors #content-area h3 {
     color: #ffb310;
     font-size: 26px;
