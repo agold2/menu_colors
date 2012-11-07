@@ -1394,7 +1394,7 @@ greywhite|Grey and White',
       'module' => 'blockreference',
     ),
   );
-
+/*
   // Exported field: field_sidebar_position
   $fields['fixed_width_secondary_page-field_sidebar_position'] = array(
     'field_name' => 'field_sidebar_position',
@@ -1446,7 +1446,7 @@ Right',
       'module' => 'optionwidgets',
     ),
   );
-
+*/
   // Exported field: field_hide_content_title
   $fields['fixed_width_tertiary_page-field_hide_content_title'] = array(
     'field_name' => 'field_hide_content_title',
@@ -2050,7 +2050,7 @@ greywhite|Grey and White',
   t('Nav Bar Color');
   t('Navbar Color');
   t('Navbar Menu');
-  t('Position');
+  //t('Position');
   t('Show Banner Text');
   t('Show Banner Title');
   t('Sidebar Color');
