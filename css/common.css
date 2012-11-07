@@ -51,9 +51,6 @@ body.menu-colors-hide-sidebar-left #content-area {
 .menu-colors .node-type-fluid-width-secondary-page #sidebar-left {
   padding-top: 0px; }
 
-.menu-colors .node-inner {
-  margin-right: 130px; }
-
 body.node-type-fixed-width-landing-page .node-inner {
   margin-right: 0px; }
 
@@ -93,15 +90,19 @@ ul.text-style-2 li {
     color: #990033; }
 
 /******************************************************************************
- * LEFT SIDEBAR NAV
+ * LEFT SIDEBAR
  ******************************************************************************
 */
+body.menu-colors #sidebar-left {
+  margin-left: 20px;
+  margin-top: 14px;
+  width: 208px; }
+
+/* Left Nav Block */
 #block-views-632c02ef065305bc3a4fbc81affb43d9 {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 15px;
-  margin-left: 20px;
-  margin-top: 14px;
   width: 165px; }
   #block-views-632c02ef065305bc3a4fbc81affb43d9 h2.title {
     border-bottom: none;
@@ -187,8 +188,7 @@ body.node-type-fixed-width-secondary-page #block-views-sidebar_html_1-block_1, b
   margin-bottom: 0px; }
 
 body.node-type-fixed-width-secondary-page #sidebar-left, body.node-type-fluid-width-secondary-page #sidebar-left {
-  padding-top: 0px;
-  width: 229px; }
+  padding-top: 0px; }
 
 body.node-type-fixed-width-secondary-page #content-inner, body.node-type-fluid-width-secondary-page #content-inner {
   padding-left: 163px; }
