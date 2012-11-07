@@ -30,8 +30,8 @@ function menu_colors_strongarm() {
     'author' => '7',
     'options' => '9',
     'menu' => '6',
-    'taxonomy' => '3',
     'path' => '10',
+    'attachments' => '30',
   );
   $export['content_extra_weights_fixed_width_secondary_page'] = $strongarm;
 

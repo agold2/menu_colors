@@ -47,29 +47,28 @@ function menu_colors_fieldgroup_default_groups() {
     ),
   );
 
-  // Exported group: group_secondary_sidebar
-  $groups['fixed_width_secondary_page-group_secondary_sidebar'] = array(
+  // Exported group: group_right_sidebar
+  $groups['fixed_width_secondary_page-group_right_sidebar'] = array(
     'group_type' => 'standard',
     'type_name' => 'fixed_width_secondary_page',
-    'group_name' => 'group_secondary_sidebar',
-    'label' => 'Sidebar',
+    'group_name' => 'group_right_sidebar',
+    'label' => 'Right Sidebar',
     'settings' => array(
       'form' => array(
         'style' => 'fieldset',
         'description' => '',
       ),
       'display' => array(
-        'weight' => '6',
-        'label' => 'hidden',
+        'description' => '',
+        'label' => 'above',
         'teaser' => array(
-          'format' => 'hidden',
-          'exclude' => 1,
-        ),
-        'full' => array(
-          'format' => 'hidden',
+          'format' => 'fieldset',
           'exclude' => 0,
         ),
-        'description' => '',
+        'full' => array(
+          'format' => 'fieldset',
+          'exclude' => 0,
+        ),
         '4' => array(
           'format' => 'fieldset',
           'exclude' => 0,
@@ -80,13 +79,54 @@ function menu_colors_fieldgroup_default_groups() {
         ),
       ),
     ),
+    'weight' => '40',
+    'fields' => array(
+      '0' => 'field_hide_sidebar_right',
+      '1' => 'field_sidebar_right_block_1',
+      '2' => 'field_sidebar_right_menu',
+      '3' => 'field_sidebar_right_block_2',
+    ),
+  );
+
+  // Exported group: group_secondary_sidebar
+  $groups['fixed_width_secondary_page-group_secondary_sidebar'] = array(
+    'group_type' => 'standard',
+    'type_name' => 'fixed_width_secondary_page',
+    'group_name' => 'group_secondary_sidebar',
+    'label' => 'Left Sidebar',
+    'settings' => array(
+      'form' => array(
+        'style' => 'fieldset_collapsed',
+        'description' => '',
+      ),
+      'display' => array(
+        'description' => '',
+        'teaser' => array(
+          'format' => 'hidden',
+          'exclude' => 1,
+        ),
+        'full' => array(
+          'format' => 'hidden',
+          'exclude' => 0,
+        ),
+        '4' => array(
+          'format' => 'fieldset',
+          'exclude' => 0,
+        ),
+        'token' => array(
+          'format' => 'fieldset',
+          'exclude' => 0,
+        ),
+        'label' => 'hidden',
+      ),
+    ),
     'weight' => '6',
     'fields' => array(
-      '1' => 'field_hide_sidebar_left',
-      '2' => 'field_html_block_1',
-      '3' => 'field_sidebar_menu',
-      '4' => 'field_sidebar_color',
-      '5' => 'field_html_block_2',
+      '0' => 'field_hide_sidebar_left',
+      '1' => 'field_html_block_1',
+      '2' => 'field_sidebar_menu',
+      '3' => 'field_sidebar_color',
+      '4' => 'field_html_block_2',
     ),
   );
 
@@ -174,7 +214,9 @@ function menu_colors_fieldgroup_default_groups() {
 
   // Translatables
   // Included for use with string extractors like potx.
+  t('Left Sidebar');
   t('Main Content');
+  t('Right Sidebar');
   t('Sidebar');
 
   return $groups;

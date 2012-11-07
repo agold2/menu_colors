@@ -818,6 +818,59 @@ hide|Hide Sidebar',
     ),
   );
 
+  // Exported field: field_hide_sidebar_right
+  $fields['fixed_width_secondary_page-field_hide_sidebar_right'] = array(
+    'field_name' => 'field_hide_sidebar_right',
+    'type_name' => 'fixed_width_secondary_page',
+    'display_settings' => array(
+      'label' => array(
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'show|Show
+hide|Hide
+',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => NULL,
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Hide Right Sidebar',
+      'weight' => '41',
+      'description' => '',
+      'type' => 'optionwidgets_onoff',
+      'module' => 'optionwidgets',
+    ),
+  );
+
   // Exported field: field_html_block_1
   $fields['fixed_width_secondary_page-field_html_block_1'] = array(
     'field_name' => 'field_html_block_1',
@@ -1389,6 +1442,235 @@ greywhite|Grey and White',
       'default_value_php' => NULL,
       'label' => 'Sidebar Menu',
       'weight' => '34',
+      'description' => '',
+      'type' => 'blockreference_select_sort',
+      'module' => 'blockreference',
+    ),
+  );
+
+  // Exported field: field_sidebar_position
+  $fields['fixed_width_secondary_page-field_sidebar_position'] = array(
+    'field_name' => 'field_sidebar_position',
+    'type_name' => 'fixed_width_secondary_page',
+    'display_settings' => array(
+      'label' => array(
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'label' => 'Position',
+      'weight' => '37',
+      'description' => '',
+      'type' => 'optionwidgets_select',
+      'module' => 'optionwidgets',
+    ),
+  );
+
+  // Exported field: field_sidebar_right_block_1
+  $fields['fixed_width_secondary_page-field_sidebar_right_block_1'] = array(
+    'field_name' => 'field_sidebar_right_block_1',
+    'type_name' => 'fixed_width_secondary_page',
+    'display_settings' => array(
+      'label' => array(
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '1',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'rows' => '5',
+      'size' => 60,
+      'default_value' => array(
+        '0' => array(
+          'value' => '',
+          '_error_element' => 'default_value_widget][field_sidebar_right_block_1][0][value',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'HTML Block',
+      'weight' => '42',
+      'description' => '',
+      'type' => 'text_textarea',
+      'module' => 'text',
+    ),
+  );
+
+  // Exported field: field_sidebar_right_block_2
+  $fields['fixed_width_secondary_page-field_sidebar_right_block_2'] = array(
+    'field_name' => 'field_sidebar_right_block_2',
+    'type_name' => 'fixed_width_secondary_page',
+    'display_settings' => array(
+      'label' => array(
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => '',
+          '_error_element' => 'default_value_widget][field_sidebar_right_block_2][0][value',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'rows' => '5',
+      'size' => 60,
+      'label' => 'HTML Block',
+      'weight' => '44',
+      'description' => '',
+      'type' => 'text_textarea',
+      'module' => 'text',
+    ),
+  );
+
+  // Exported field: field_sidebar_right_menu
+  $fields['fixed_width_secondary_page-field_sidebar_right_menu'] = array(
+    'field_name' => 'field_sidebar_right_menu',
+    'type_name' => 'fixed_width_secondary_page',
+    'display_settings' => array(
+      'label' => array(
+        'format' => 'above',
+        'exclude' => 0,
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'blockreference',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'blockreference',
+    'active' => '1',
+    'referenceable_regions' => array(
+      '' => 0,
+      'left' => 0,
+      'right' => 0,
+      'navbar' => 0,
+      'content_top' => 0,
+      'content_bottom' => 0,
+      'content_bottom_fixed' => 0,
+      'header' => 0,
+      'footer' => 0,
+      'closure_region' => 0,
+    ),
+    'referenceable_modules' => array(
+      'menu_block' => 'menu_block',
+      'asu_ldap_roles' => 0,
+      'block' => 0,
+      'cas' => 0,
+      'diff' => 0,
+      'menu' => 0,
+      'node' => 0,
+      'poll' => 0,
+      'profile' => 0,
+      'revisioning' => 0,
+      'system' => 0,
+      'user' => 0,
+      'views' => 0,
+      'webform' => 0,
+    ),
+    'referenceable_operator' => 'AND',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'bid' => '0',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Menu',
+      'weight' => '43',
       'description' => '',
       'type' => 'blockreference_select_sort',
       'module' => 'blockreference',
@@ -1993,11 +2275,14 @@ greywhite|Grey and White',
   t('Hide Left Sidebar');
   t('Hide Nav Bar');
   t('Hide Navbar');
+  t('Hide Right Sidebar');
   t('Hide Sidebar');
   t('Main Content');
+  t('Menu');
   t('Nav Bar Color');
   t('Navbar Color');
   t('Navbar Menu');
+  t('Position');
   t('Show Banner Text');
   t('Show Banner Title');
   t('Sidebar Color');
