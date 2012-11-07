@@ -82,7 +82,6 @@ function menu_colors_fieldgroup_default_groups() {
     ),
     'weight' => '6',
     'fields' => array(
-      //'0' => 'field_sidebar_position',
       '1' => 'field_hide_sidebar_left',
       '2' => 'field_html_block_1',
       '3' => 'field_sidebar_menu',
