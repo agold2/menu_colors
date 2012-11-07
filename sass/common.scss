@@ -1,9 +1,11 @@
 $gold: #ffb310;
 
-body.menu-colors, body.menu-colors #content-area {
+body.menu-colors #content-area {
   font-family: Arial,Helvetica,sans-serif;
   margin-left: 36px;
   padding: 17px 30px 0 30px;
+}
+body.menu-colors, body.menu-colors #content-area {
   h1, .node-type-fixed-width-landing-page h2.title {
    color: $gold;
    font-size: 36px !important;
