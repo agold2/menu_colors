@@ -205,3 +205,6 @@ body.menu-colors-sidebar-right #content-inner {
   padding-left: 0; }
 body.menu-colors-sidebar-right #content-area {
   padding: 17px 54px 0 30px; }
+
+#sidebar-right {
+  margin-top: 14px; }
