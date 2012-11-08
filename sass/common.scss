@@ -273,12 +273,14 @@ body.menu-colors-sidebar-right {
 }
 
 .menu-colors.two-sidebars #content-inner,
-.menu-colors.left-sidebar #content-inner {
+.menu-colors.sidebar-left #content-inner {
   padding-left: 197px;
 }
 
-
 .menu-colors.two-sidebars.node-type-fixed-width-secondary-page #content-inner {
   padding-left: 197px;
+}
 
+.menu-colors.sidebar-right #content-inner {
+  padding-right: 220px;
 }
