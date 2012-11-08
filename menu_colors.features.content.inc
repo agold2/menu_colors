@@ -160,7 +160,7 @@ hide|Hide Content Title',
         ),
       ),
       'default_value_php' => NULL,
-      'label' => 'HTML Block',
+      'label' => 'HTML Block (to be deleted)',
       'weight' => '39',
       'description' => '',
       'type' => 'text_textarea',
@@ -216,7 +216,7 @@ hide|Hide Content Title',
         ),
       ),
       'default_value_php' => NULL,
-      'label' => 'HTML Block',
+      'label' => 'HTML Block (to be deleted)',
       'weight' => '40',
       'description' => '',
       'type' => 'text_textarea',
@@ -551,6 +551,117 @@ goldgrey|Gold and Grey',
       'description' => '',
       'type' => 'blockreference_select_sort',
       'module' => 'blockreference',
+    ),
+  );
+
+  // Exported field: field_sidebar_right_block_1
+  $fields['fixed_width_landing_page-field_sidebar_right_block_1'] = array(
+    'field_name' => 'field_sidebar_right_block_1',
+    'type_name' => 'fixed_width_landing_page',
+    'display_settings' => array(
+      'weight' => '14',
+      'parent' => 'group_sidebar_right',
+      'label' => array(
+        'format' => 'above',
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '1',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'rows' => '5',
+      'size' => 60,
+      'default_value' => array(
+        '0' => array(
+          'value' => '',
+          'format' => '3',
+          '_error_element' => 'default_value_widget][field_sidebar_right_block_1][0][value',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'HTML Block',
+      'weight' => '41',
+      'description' => '',
+      'type' => 'text_textarea',
+      'module' => 'text',
+    ),
+  );
+
+  // Exported field: field_sidebar_right_block_2
+  $fields['fixed_width_landing_page-field_sidebar_right_block_2'] = array(
+    'field_name' => 'field_sidebar_right_block_2',
+    'type_name' => 'fixed_width_landing_page',
+    'display_settings' => array(
+      'weight' => '17',
+      'parent' => 'group_sidebar_right',
+      'label' => array(
+        'format' => 'above',
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => '',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'rows' => '5',
+      'size' => 60,
+      'default_value' => array(
+        '0' => array(
+          'value' => '',
+          '_error_element' => 'default_value_widget][field_sidebar_right_block_2][0][value',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'HTML Block',
+      'weight' => '42',
+      'description' => '',
+      'type' => 'text_textarea',
+      'module' => 'text',
     ),
   );
 
@@ -1454,6 +1565,7 @@ You may need to clear caches before new Menu Block appears in select list.',
   t('Banner image');
   t('Content');
   t('HTML Block');
+  t('HTML Block (to be deleted)');
   t('Hide Content Title');
   t('Hide Left Sidebar');
   t('Hide Nav Bar');

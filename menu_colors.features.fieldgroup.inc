@@ -43,6 +43,8 @@ function menu_colors_fieldgroup_default_groups() {
     'fields' => array(
       '0' => 'field_html_block_1',
       '1' => 'field_html_block_2',
+      '2' => 'field_sidebar_right_block_1',
+      '3' => 'field_sidebar_right_block_2',
     ),
   );
 
@@ -58,8 +60,7 @@ function menu_colors_fieldgroup_default_groups() {
         'description' => '',
       ),
       'display' => array(
-        'weight' => '6',
-        'label' => 'hidden',
+        'description' => '',
         'teaser' => array(
           'format' => 'hidden',
           'exclude' => 1,
@@ -68,7 +69,6 @@ function menu_colors_fieldgroup_default_groups() {
           'format' => 'hidden',
           'exclude' => 0,
         ),
-        'description' => '',
         '4' => array(
           'format' => 'fieldset',
           'exclude' => 0,
@@ -77,6 +77,7 @@ function menu_colors_fieldgroup_default_groups() {
           'format' => 'fieldset',
           'exclude' => 0,
         ),
+        'label' => 'hidden',
       ),
     ),
     'weight' => '6',
@@ -86,46 +87,6 @@ function menu_colors_fieldgroup_default_groups() {
       '2' => 'field_sidebar_menu',
       '3' => 'field_sidebar_color',
       '4' => 'field_html_block_2',
-    ),
-  );
-
-  // Exported group: group_sidebar_right
-  $groups['fixed_width_secondary_page-group_sidebar_right'] = array(
-    'group_type' => 'standard',
-    'type_name' => 'fixed_width_secondary_page',
-    'group_name' => 'group_sidebar_right',
-    'label' => 'Right Sidebar',
-    'settings' => array(
-      'form' => array(
-        'style' => 'fieldset',
-        'description' => '',
-      ),
-      'display' => array(
-        'weight' => '13',
-        'label' => 'above',
-        'teaser' => array(
-          'format' => 'fieldset',
-          'exclude' => 0,
-        ),
-        'full' => array(
-          'format' => 'hidden',
-          'exclude' => 0,
-        ),
-        'description' => '',
-        '4' => array(
-          'format' => 'fieldset',
-          'exclude' => 0,
-        ),
-        'token' => array(
-          'format' => 'fieldset',
-          'exclude' => 0,
-        ),
-      ),
-    ),
-    'weight' => '13',
-    'fields' => array(
-      '0' => 'field_sidebar_right_block_1',
-      '1' => 'field_sidebar_right_block_2',
     ),
   );
 
@@ -215,7 +176,6 @@ function menu_colors_fieldgroup_default_groups() {
   // Included for use with string extractors like potx.
   t('Left Sidebar');
   t('Main Content');
-  t('Right Sidebar');
   t('Sidebar');
 
   return $groups;

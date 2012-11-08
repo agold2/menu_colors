@@ -675,6 +675,24 @@ print("<h2> $data->node_title </h2>$data->node_data_field_landing_teaser_field_l
       ),
     ),
   ));
+  $handler->override_option('filters', array(
+    'field_html_block_1_value' => array(
+      'operator' => 'not empty',
+      'value' => '',
+      'group' => '0',
+      'exposed' => FALSE,
+      'expose' => array(
+        'operator' => FALSE,
+        'label' => '',
+        'optional' => FALSE,
+      ),
+      'case' => 0,
+      'id' => 'field_html_block_1_value',
+      'table' => 'node_data_field_html_block_1',
+      'field' => 'field_html_block_1_value',
+      'relationship' => 'none',
+    ),
+  ));
   $handler->override_option('access', array(
     'type' => 'none',
   ));
@@ -797,6 +815,24 @@ print("<h2> $data->node_title </h2>$data->node_data_field_landing_teaser_field_l
       'override' => array(
         'button' => 'Override',
       ),
+    ),
+  ));
+  $handler->override_option('filters', array(
+    'field_html_block_2_value' => array(
+      'operator' => 'not empty',
+      'value' => '',
+      'group' => '0',
+      'exposed' => FALSE,
+      'expose' => array(
+        'operator' => FALSE,
+        'label' => '',
+        'optional' => FALSE,
+      ),
+      'case' => 0,
+      'id' => 'field_html_block_2_value',
+      'table' => 'node_data_field_html_block_2',
+      'field' => 'field_html_block_2_value',
+      'relationship' => 'none',
     ),
   ));
   $handler->override_option('access', array(
