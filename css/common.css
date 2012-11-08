@@ -1,6 +1,5 @@
 body.menu-colors #content-area {
   font-family: Arial,Helvetica,sans-serif;
-  margin-left: 36px;
   padding: 17px 30px 0 30px; }
 
 body.menu-colors h1, body.menu-colors .node-type-fixed-width-landing-page h2.title, body.menu-colors #content-area h1, body.menu-colors #content-area .node-type-fixed-width-landing-page h2.title {
@@ -193,7 +192,7 @@ body.node-type-fixed-width-secondary-page #sidebar-left, body.node-type-fluid-wi
 
 body.node-type-fixed-width-secondary-page #content-inner, body.node-type-fluid-width-secondary-page #content-inner,
 body.node-type-fixed-width-secondary-page #content-inner #content-header {
-  padding-left: 163px; }
+  padding-left: 0px; }
 
 /* Sidebar right: use sidebar-left */
 body.menu-colors-sidebar-right #sidebar-left {
