@@ -209,5 +209,5 @@ body.menu-colors-sidebar-right #content-area {
   margin-top: 14px;
   margin-right: 30px; }
 
-.menu-colors.sidebar-left.one-sidebar #content-area {
-  margin-left: 197px; }
+.menu-colors.sidebar-left #content-inner {
+  padding-left: 197px; }
