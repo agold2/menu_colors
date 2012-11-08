@@ -190,10 +190,6 @@ body.node-type-fixed-width-secondary-page #block-views-sidebar_html_1-block_1, b
 body.node-type-fixed-width-secondary-page #sidebar-left, body.node-type-fluid-width-secondary-page #sidebar-left {
   padding-top: 0px; }
 
-body.node-type-fixed-width-secondary-page #content-inner, body.node-type-fluid-width-secondary-page #content-inner,
-body.node-type-fixed-width-secondary-page #content-inner #content-header {
-  padding-left: 0px; }
-
 /* Sidebar right: use sidebar-left */
 body.menu-colors-sidebar-right #sidebar-left {
   float: right;
