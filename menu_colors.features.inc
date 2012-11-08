@@ -11,6 +11,41 @@ function menu_colors_ctools_plugin_api() {
 }
 
 /**
+ * Implementation of hook_imagecache_default_presets().
+ */
+function menu_colors_imagecache_default_presets() {
+  $items = array(
+    'landing_img_1000' => array(
+      'presetname' => 'landing_img_1000',
+      'actions' => array(
+        '0' => array(
+          'weight' => '0',
+          'module' => 'imagecache',
+          'action' => 'imagecache_scale',
+          'data' => array(
+            'width' => '1000',
+            'height' => '',
+            'upscale' => 1,
+          ),
+        ),
+        '1' => array(
+          'weight' => '0',
+          'module' => 'imagecache',
+          'action' => 'imagecache_crop',
+          'data' => array(
+            'width' => '1000',
+            'height' => '330',
+            'xoffset' => 'center',
+            'yoffset' => 'center',
+          ),
+        ),
+      ),
+    ),
+  );
+  return $items;
+}
+
+/**
  * Implementation of hook_node_info().
  */
 function menu_colors_node_info() {
@@ -30,17 +65,6 @@ function menu_colors_node_info() {
       'name' => t('Fixed-Width Secondary Page'),
       'module' => 'features',
       'description' => t('Secondary page with fixed width layout.'),
-      'has_title' => '1',
-      'title_label' => t('Title'),
-      'has_body' => '0',
-      'body_label' => '',
-      'min_word_count' => '0',
-      'help' => '',
-    ),
-    'fixed_width_tertiary_page' => array(
-      'name' => t('Fixed-Width Tertiary Page'),
-      'module' => 'features',
-      'description' => t('Tertiary page with fixed width.'),
       'has_title' => '1',
       'title_label' => t('Title'),
       'has_body' => '0',

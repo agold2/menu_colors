@@ -112,59 +112,6 @@ hide|Hide Content Title',
     ),
   );
 
-  // Exported field: field_hide_sidebar_left
-  $fields['fixed_width_landing_page-field_hide_sidebar_left'] = array(
-    'field_name' => 'field_hide_sidebar_left',
-    'type_name' => 'fixed_width_landing_page',
-    'display_settings' => array(
-      'weight' => '38',
-      'parent' => 'group_landing_sidebar',
-      'label' => array(
-        'format' => 'above',
-      ),
-      'teaser' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '0',
-    'max_length' => '',
-    'allowed_values' => 'display|Display Sidebar
-hide|Hide Sidebar',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'value' => 'display',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Hide Sidebar',
-      'weight' => '38',
-      'description' => '',
-      'type' => 'optionwidgets_onoff',
-      'module' => 'optionwidgets',
-    ),
-  );
-
   // Exported field: field_html_block_1
   $fields['fixed_width_landing_page-field_html_block_1'] = array(
     'field_name' => 'field_html_block_1',
@@ -306,7 +253,7 @@ hide|Hide Sidebar',
     ),
     'widget_active' => '1',
     'type' => 'filefield',
-    'required' => '1',
+    'required' => '0',
     'multiple' => '1',
     'module' => 'filefield',
     'active' => '1',
@@ -713,170 +660,12 @@ hide|Hide Content Title',
     ),
   );
 
-  // Exported field: field_hide_navbar
-  $fields['fixed_width_secondary_page-field_hide_navbar'] = array(
-    'field_name' => 'field_hide_navbar',
-    'type_name' => 'fixed_width_secondary_page',
-    'display_settings' => array(
-      'weight' => '3',
-      'parent' => '',
-      'label' => array(
-        'format' => 'hidden',
-      ),
-      'teaser' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '0',
-    'max_length' => '',
-    'allowed_values' => 'display|Display Nav Bar
-hide|Hide Nav Bar',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'value' => 'display',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Hide Nav Bar',
-      'weight' => '3',
-      'description' => '',
-      'type' => 'optionwidgets_onoff',
-      'module' => 'optionwidgets',
-    ),
-  );
-
-  // Exported field: field_hide_sidebar_left
-  $fields['fixed_width_secondary_page-field_hide_sidebar_left'] = array(
-    'field_name' => 'field_hide_sidebar_left',
-    'type_name' => 'fixed_width_secondary_page',
-    'display_settings' => array(
-      'label' => array(
-        'format' => 'above',
-        'exclude' => 0,
-      ),
-      'teaser' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '0',
-    'max_length' => '',
-    'allowed_values' => 'display|Display Sidebar
-hide|Hide Sidebar',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'value' => 'display',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Hide Left Sidebar',
-      'weight' => '32',
-      'description' => '',
-      'type' => 'optionwidgets_onoff',
-      'module' => 'optionwidgets',
-    ),
-  );
-
-  // Exported field: field_hide_sidebar_right
-  $fields['fixed_width_secondary_page-field_hide_sidebar_right'] = array(
-    'field_name' => 'field_hide_sidebar_right',
-    'type_name' => 'fixed_width_secondary_page',
-    'display_settings' => array(
-      'label' => array(
-        'format' => 'above',
-        'exclude' => 0,
-      ),
-      'teaser' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '0',
-    'max_length' => '',
-    'allowed_values' => 'show|Show
-hide|Hide
-',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'value' => NULL,
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Hide Right Sidebar',
-      'weight' => '41',
-      'description' => '',
-      'type' => 'optionwidgets_onoff',
-      'module' => 'optionwidgets',
-    ),
-  );
-
   // Exported field: field_html_block_1
   $fields['fixed_width_secondary_page-field_html_block_1'] = array(
     'field_name' => 'field_html_block_1',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
-      'weight' => '15',
+      'weight' => '33',
       'parent' => 'group_secondary_sidebar',
       'label' => array(
         'format' => 'hidden',
@@ -932,7 +721,7 @@ hide|Hide
     'field_name' => 'field_html_block_2',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
-      'weight' => '18',
+      'weight' => '36',
       'parent' => 'group_secondary_sidebar',
       'label' => array(
         'format' => 'hidden',
@@ -1011,7 +800,7 @@ hide|Hide
     ),
     'widget_active' => '1',
     'type' => 'filefield',
-    'required' => '1',
+    'required' => '0',
     'multiple' => '1',
     'module' => 'filefield',
     'active' => '1',
@@ -1024,8 +813,8 @@ hide|Hide
       'progress_indicator' => 'bar',
       'max_filesize_per_file' => '',
       'max_filesize_per_node' => '',
-      'max_resolution' => 0,
-      'min_resolution' => 0,
+      'max_resolution' => '0',
+      'min_resolution' => '0',
       'alt' => '',
       'custom_alt' => 0,
       'title' => '',
@@ -1034,41 +823,36 @@ hide|Hide
       'default_image' => NULL,
       'use_default_image' => 0,
       'filefield_sources' => array(
-        'imce' => TRUE,
-        '0' => 1,
-        'attach' => FALSE,
-        'remote' => FALSE,
-        'reference' => FALSE,
+        'imce' => 0,
+        'attach' => 0,
+        'remote' => 0,
+        'reference' => 0,
       ),
       'filefield_source_attach_path' => 'file-attach',
       'filefield_source_attach_absolute' => '0',
       'filefield_source_attach_mode' => 'copy',
       'filefield_source_imce_mode' => '1',
       'filefield_source_autocomplete' => '0',
-      'insert' => FALSE,
+      'insert' => 0,
       'insert_styles' => array(
-        '0' => 1,
-        'auto' => FALSE,
-        'link' => FALSE,
-        'image' => FALSE,
-        'imagecache_cart' => FALSE,
-        'imagecache_landing_img_1000' => FALSE,
-        'imagecache_product' => FALSE,
-        'imagecache_product_full' => FALSE,
-        'imagecache_product_list' => FALSE,
-        'imagecache_secondary_sidebar_200' => FALSE,
-        'imagecache_slideshow_700' => FALSE,
-        'imagecache_slideshow_thumb' => FALSE,
-        'imagecache_uc_thumbnail' => FALSE,
+        'auto' => 0,
+        'link' => 0,
+        'icon_link' => 0,
+        'image' => 0,
+        'landing_img_1000__colorbox' => 0,
+        'slideshow_700__colorbox' => 0,
+        'slideshow_thumb__colorbox' => 0,
+        'imagecache_landing_img_1000' => 0,
+        'imagecache_slideshow_700' => 0,
+        'imagecache_slideshow_thumb' => 0,
       ),
-      'insert_default' => array(
-        '0' => 'auto',
-      ),
+      'insert_default' => 'auto',
       'insert_class' => '',
       'insert_width' => '',
+      'insert_absolute' => 0,
       'label' => 'Banner image',
       'weight' => '2',
-      'description' => '',
+      'description' => 'Banner image auto-hides if empty. Leave empty for "tertiary" pages. Add image for "secondary" pages.',
       'type' => 'imagefield_widget',
       'module' => 'imagefield',
     ),
@@ -1188,7 +972,7 @@ goldgrey|Gold and Grey',
     'field_name' => 'field_navbar_menu',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
-      'weight' => '19',
+      'weight' => '4',
       'parent' => '',
       'label' => array(
         'format' => 'hidden',
@@ -1265,7 +1049,7 @@ goldgrey|Gold and Grey',
     'field_name' => 'field_secondary_main_content',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
-      'weight' => '7',
+      'weight' => '8',
       'parent' => '',
       'label' => array(
         'format' => 'hidden',
@@ -1309,7 +1093,7 @@ goldgrey|Gold and Grey',
       ),
       'default_value_php' => NULL,
       'label' => 'Main Content',
-      'weight' => '7',
+      'weight' => '8',
       'description' => '',
       'type' => 'text_textarea',
       'module' => 'text',
@@ -1321,7 +1105,7 @@ goldgrey|Gold and Grey',
     'field_name' => 'field_sidebar_color',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
-      'weight' => '17',
+      'weight' => '35',
       'parent' => 'group_secondary_sidebar',
       'label' => array(
         'format' => 'above',
@@ -1363,7 +1147,7 @@ greywhite|Grey and White',
         ),
       ),
       'default_value_php' => NULL,
-      'label' => 'Sidebar Color',
+      'label' => 'Menu Color',
       'weight' => '35',
       'description' => '',
       'type' => 'optionwidgets_buttons',
@@ -1376,8 +1160,8 @@ greywhite|Grey and White',
     'field_name' => 'field_sidebar_menu',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
-      'weight' => '20',
-      'parent' => '',
+      'weight' => '34',
+      'parent' => 'group_secondary_sidebar',
       'label' => array(
         'format' => 'hidden',
       ),
@@ -1417,12 +1201,12 @@ greywhite|Grey and White',
       'closure_region' => 0,
     ),
     'referenceable_modules' => array(
-      'menu' => 'menu',
       'menu_block' => 'menu_block',
       'asu_ldap_roles' => 0,
       'block' => 0,
       'cas' => 0,
       'diff' => 0,
+      'menu' => 0,
       'node' => 0,
       'poll' => 0,
       'profile' => 0,
@@ -1440,56 +1224,12 @@ greywhite|Grey and White',
         ),
       ),
       'default_value_php' => NULL,
-      'label' => 'Sidebar Menu',
+      'label' => 'Menu',
       'weight' => '34',
-      'description' => '',
+      'description' => 'Use Menu Block built from SAME menu that is used for Navbar Menu. When creating the Menu Block set Starting Level to 2nd level (secondary).
+You may need to clear caches before new Menu Block appears in select list.',
       'type' => 'blockreference_select_sort',
       'module' => 'blockreference',
-    ),
-  );
-
-  // Exported field: field_sidebar_position
-  $fields['fixed_width_secondary_page-field_sidebar_position'] = array(
-    'field_name' => 'field_sidebar_position',
-    'type_name' => 'fixed_width_secondary_page',
-    'display_settings' => array(
-      'label' => array(
-        'format' => 'above',
-        'exclude' => 0,
-      ),
-      'teaser' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '',
-    'max_length' => '',
-    'allowed_values' => '',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'label' => 'Position',
-      'weight' => '37',
-      'description' => '',
-      'type' => 'optionwidgets_select',
-      'module' => 'optionwidgets',
     ),
   );
 
@@ -1498,16 +1238,17 @@ greywhite|Grey and White',
     'field_name' => 'field_sidebar_right_block_1',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
+      'weight' => '16',
+      'parent' => 'group_sidebar_right',
       'label' => array(
         'format' => 'above',
-        'exclude' => 0,
       ),
       'teaser' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
       'full' => array(
-        'format' => 'default',
+        'format' => 'hidden',
         'exclude' => 0,
       ),
       '4' => array(
@@ -1540,7 +1281,7 @@ greywhite|Grey and White',
       ),
       'default_value_php' => NULL,
       'label' => 'HTML Block',
-      'weight' => '42',
+      'weight' => '16',
       'description' => '',
       'type' => 'text_textarea',
       'module' => 'text',
@@ -1552,16 +1293,17 @@ greywhite|Grey and White',
     'field_name' => 'field_sidebar_right_block_2',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
+      'weight' => '18',
+      'parent' => 'group_sidebar_right',
       'label' => array(
         'format' => 'above',
-        'exclude' => 0,
       ),
       'teaser' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
       'full' => array(
-        'format' => 'default',
+        'format' => 'hidden',
         'exclude' => 0,
       ),
       '4' => array(
@@ -1584,6 +1326,8 @@ greywhite|Grey and White',
     'allowed_values' => '',
     'allowed_values_php' => '',
     'widget' => array(
+      'rows' => '5',
+      'size' => 60,
       'default_value' => array(
         '0' => array(
           'value' => '',
@@ -1591,10 +1335,8 @@ greywhite|Grey and White',
         ),
       ),
       'default_value_php' => NULL,
-      'rows' => '5',
-      'size' => 60,
       'label' => 'HTML Block',
-      'weight' => '44',
+      'weight' => '19',
       'description' => '',
       'type' => 'text_textarea',
       'module' => 'text',
@@ -1606,16 +1348,17 @@ greywhite|Grey and White',
     'field_name' => 'field_sidebar_right_menu',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
+      'weight' => '17',
+      'parent' => 'group_sidebar_right',
       'label' => array(
         'format' => 'above',
-        'exclude' => 0,
       ),
       'teaser' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
       'full' => array(
-        'format' => 'default',
+        'format' => 'hidden',
         'exclude' => 0,
       ),
       '4' => array(
@@ -1670,135 +1413,29 @@ greywhite|Grey and White',
       ),
       'default_value_php' => NULL,
       'label' => 'Menu',
-      'weight' => '43',
-      'description' => '',
+      'weight' => '17',
+      'description' => 'Use Menu Block built from SAME menu that is used for Navbar Menu. When creating the Menu Block set Starting Level to 2nd level (secondary).
+You may need to clear caches before new Menu Block appears in select list.',
       'type' => 'blockreference_select_sort',
       'module' => 'blockreference',
     ),
   );
 
-  // Exported field: field_hide_content_title
-  $fields['fixed_width_tertiary_page-field_hide_content_title'] = array(
-    'field_name' => 'field_hide_content_title',
-    'type_name' => 'fixed_width_tertiary_page',
+  // Exported field: field_sidebar_right_menu_color
+  $fields['fixed_width_secondary_page-field_sidebar_right_menu_color'] = array(
+    'field_name' => 'field_sidebar_right_menu_color',
+    'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
-      'weight' => '32',
-      'parent' => '',
-      'label' => array(
-        'format' => 'hidden',
-      ),
-      'teaser' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '0',
-    'max_length' => '',
-    'allowed_values' => 'display|Display Content Title
-hide|Hide Content Title',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'value' => 'display',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Hide Content Title',
-      'weight' => '32',
-      'description' => 'Check this checkbox to hide the title displayed in the content section.',
-      'type' => 'optionwidgets_onoff',
-      'module' => 'optionwidgets',
-    ),
-  );
-
-  // Exported field: field_hide_navbar
-  $fields['fixed_width_tertiary_page-field_hide_navbar'] = array(
-    'field_name' => 'field_hide_navbar',
-    'type_name' => 'fixed_width_tertiary_page',
-    'display_settings' => array(
-      'weight' => '34',
-      'parent' => '',
-      'label' => array(
-        'format' => 'hidden',
-      ),
-      'teaser' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '0',
-    'max_length' => '',
-    'allowed_values' => 'display|Display Nav Bar
-hide|Hide Nav Bar',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'value' => 'display',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Hide Navbar',
-      'weight' => '34',
-      'description' => '',
-      'type' => 'optionwidgets_onoff',
-      'module' => 'optionwidgets',
-    ),
-  );
-
-  // Exported field: field_hide_sidebar_left
-  $fields['fixed_width_tertiary_page-field_hide_sidebar_left'] = array(
-    'field_name' => 'field_hide_sidebar_left',
-    'type_name' => 'fixed_width_tertiary_page',
-    'display_settings' => array(
-      'weight' => '56',
-      'parent' => 'group_tertiary_sidebar',
       'label' => array(
         'format' => 'above',
+        'exclude' => 0,
       ),
       'teaser' => array(
         'format' => 'default',
         'exclude' => 0,
       ),
       'full' => array(
-        'format' => 'hidden',
+        'format' => 'default',
         'exclude' => 0,
       ),
       '4' => array(
@@ -1813,302 +1450,6 @@ hide|Hide Nav Bar',
     'widget_active' => '1',
     'type' => 'text',
     'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '0',
-    'max_length' => '',
-    'allowed_values' => 'display|Display Sidebar
-hide|Hide Sidebar',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'value' => 'display',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Hide Left Sidebar',
-      'weight' => '56',
-      'description' => '',
-      'type' => 'optionwidgets_onoff',
-      'module' => 'optionwidgets',
-    ),
-  );
-
-  // Exported field: field_html_block_1
-  $fields['fixed_width_tertiary_page-field_html_block_1'] = array(
-    'field_name' => 'field_html_block_1',
-    'type_name' => 'fixed_width_tertiary_page',
-    'display_settings' => array(
-      'weight' => '57',
-      'parent' => 'group_tertiary_sidebar',
-      'label' => array(
-        'format' => 'hidden',
-      ),
-      'teaser' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '1',
-    'max_length' => '',
-    'allowed_values' => '',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'rows' => '5',
-      'size' => '60',
-      'default_value' => array(
-        '0' => array(
-          'value' => '',
-          'format' => '2',
-          '_error_element' => 'default_value_widget][field_html_block_1][0][value',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'HTML Block',
-      'weight' => '57',
-      'description' => '',
-      'type' => 'text_textarea',
-      'module' => 'text',
-    ),
-  );
-
-  // Exported field: field_html_block_2
-  $fields['fixed_width_tertiary_page-field_html_block_2'] = array(
-    'field_name' => 'field_html_block_2',
-    'type_name' => 'fixed_width_tertiary_page',
-    'display_settings' => array(
-      'weight' => '60',
-      'parent' => 'group_tertiary_sidebar',
-      'label' => array(
-        'format' => 'hidden',
-      ),
-      'teaser' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '1',
-    'max_length' => '',
-    'allowed_values' => '',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'rows' => '5',
-      'size' => 60,
-      'default_value' => array(
-        '0' => array(
-          'value' => '',
-          'format' => '2',
-          '_error_element' => 'default_value_widget][field_html_block_2][0][value',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'HTML Block',
-      'weight' => '60',
-      'description' => '',
-      'type' => 'text_textarea',
-      'module' => 'text',
-    ),
-  );
-
-  // Exported field: field_navbar_color
-  $fields['fixed_width_tertiary_page-field_navbar_color'] = array(
-    'field_name' => 'field_navbar_color',
-    'type_name' => 'fixed_width_tertiary_page',
-    'display_settings' => array(
-      'weight' => '36',
-      'parent' => '',
-      'label' => array(
-        'format' => 'hidden',
-      ),
-      'teaser' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '1',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '0',
-    'max_length' => '',
-    'allowed_values' => 'blackwhite|Black and White
-goldwhite|Gold and White
-goldgrey|Gold and Grey',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'value' => '',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Navbar Color',
-      'weight' => '36',
-      'description' => '',
-      'type' => 'optionwidgets_buttons',
-      'module' => 'optionwidgets',
-    ),
-  );
-
-  // Exported field: field_navbar_menu
-  $fields['fixed_width_tertiary_page-field_navbar_menu'] = array(
-    'field_name' => 'field_navbar_menu',
-    'type_name' => 'fixed_width_tertiary_page',
-    'display_settings' => array(
-      'weight' => '35',
-      'parent' => '',
-      'label' => array(
-        'format' => 'hidden',
-      ),
-      'teaser' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'blockreference',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'blockreference',
-    'active' => '1',
-    'referenceable_regions' => array(
-      '' => 0,
-      'left' => 0,
-      'right' => 0,
-      'navbar' => 0,
-      'content_top' => 0,
-      'content_bottom' => 0,
-      'content_bottom_fixed' => 0,
-      'header' => 0,
-      'footer' => 0,
-      'closure_region' => 0,
-    ),
-    'referenceable_modules' => array(
-      'menu' => 'menu',
-      'asu_ldap_roles' => 0,
-      'block' => 0,
-      'cas' => 0,
-      'diff' => 0,
-      'menu_block' => 0,
-      'node' => 0,
-      'poll' => 0,
-      'profile' => 0,
-      'revisioning' => 0,
-      'system' => 0,
-      'user' => 0,
-      'views' => 0,
-      'webform' => 0,
-    ),
-    'referenceable_operator' => 'OR',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'bid' => '0',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Navbar Menu',
-      'weight' => '35',
-      'description' => '',
-      'type' => 'blockreference_select_sort',
-      'module' => 'blockreference',
-    ),
-  );
-
-  // Exported field: field_sidebar_color
-  $fields['fixed_width_tertiary_page-field_sidebar_color'] = array(
-    'field_name' => 'field_sidebar_color',
-    'type_name' => 'fixed_width_tertiary_page',
-    'display_settings' => array(
-      'weight' => '59',
-      'parent' => 'group_tertiary_sidebar',
-      'label' => array(
-        'format' => 'above',
-      ),
-      'teaser' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '1',
     'multiple' => '0',
     'module' => 'text',
     'active' => '1',
@@ -2126,143 +1467,11 @@ greywhite|Grey and White',
         ),
       ),
       'default_value_php' => NULL,
-      'label' => 'Sidebar Color',
-      'weight' => '59',
+      'label' => 'Menu Color',
+      'weight' => '18',
       'description' => '',
       'type' => 'optionwidgets_buttons',
       'module' => 'optionwidgets',
-    ),
-  );
-
-  // Exported field: field_sidebar_menu
-  $fields['fixed_width_tertiary_page-field_sidebar_menu'] = array(
-    'field_name' => 'field_sidebar_menu',
-    'type_name' => 'fixed_width_tertiary_page',
-    'display_settings' => array(
-      'weight' => '58',
-      'parent' => 'group_tertiary_sidebar',
-      'label' => array(
-        'format' => 'hidden',
-      ),
-      'teaser' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'blockreference',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'blockreference',
-    'active' => '1',
-    'referenceable_regions' => array(
-      '' => 0,
-      'left' => 0,
-      'right' => 0,
-      'navbar' => 0,
-      'content_top' => 0,
-      'content_bottom' => 0,
-      'content_bottom_fixed' => 0,
-      'header' => 0,
-      'footer' => 0,
-      'closure_region' => 0,
-    ),
-    'referenceable_modules' => array(
-      'menu' => 'menu',
-      'menu_block' => 'menu_block',
-      'asu_ldap_roles' => 0,
-      'block' => 0,
-      'cas' => 0,
-      'diff' => 0,
-      'node' => 0,
-      'poll' => 0,
-      'profile' => 0,
-      'revisioning' => 0,
-      'system' => 0,
-      'user' => 0,
-      'views' => 0,
-      'webform' => 0,
-    ),
-    'referenceable_operator' => 'OR',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'bid' => '0',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Sidebar Menu',
-      'weight' => '58',
-      'description' => '',
-      'type' => 'blockreference_select_sort',
-      'module' => 'blockreference',
-    ),
-  );
-
-  // Exported field: field_tertiary_main_content
-  $fields['fixed_width_tertiary_page-field_tertiary_main_content'] = array(
-    'field_name' => 'field_tertiary_main_content',
-    'type_name' => 'fixed_width_tertiary_page',
-    'display_settings' => array(
-      'weight' => '54',
-      'parent' => 'group_tertiary_main_content',
-      'label' => array(
-        'format' => 'hidden',
-      ),
-      'teaser' => array(
-        'format' => 'default',
-        'exclude' => 1,
-      ),
-      'full' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '1',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '1',
-    'max_length' => '',
-    'allowed_values' => '',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'rows' => '10',
-      'size' => '60',
-      'default_value' => array(
-        '0' => array(
-          'value' => '',
-          '_error_element' => 'default_value_widget][field_tertiary_main_content][0][value',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Main Content',
-      'weight' => '54',
-      'description' => '',
-      'type' => 'text_textarea',
-      'module' => 'text',
     ),
   );
 
@@ -2272,21 +1481,13 @@ greywhite|Grey and White',
   t('Content');
   t('HTML Block');
   t('Hide Content Title');
-  t('Hide Left Sidebar');
-  t('Hide Nav Bar');
-  t('Hide Navbar');
-  t('Hide Right Sidebar');
-  t('Hide Sidebar');
   t('Main Content');
   t('Menu');
+  t('Menu Color');
   t('Nav Bar Color');
-  t('Navbar Color');
   t('Navbar Menu');
-  t('Position');
   t('Show Banner Text');
   t('Show Banner Title');
-  t('Sidebar Color');
-  t('Sidebar Menu');
   t('Teaser');
 
   return $fields;
