@@ -100,12 +100,12 @@ body.menu-colors #sidebar-left {
   width: 208px; }
 
 /* Left Nav Block */
-#block-views-632c02ef065305bc3a4fbc81affb43d9 {
+#block-views-632c02ef065305bc3a4fbc81affb43d9, #block-views-4cf79e7c57a39b381e94985ec07c7d92 {
   font-size: 16px;
   line-height: 25px;
   margin-bottom: 15px;
   width: 165px; }
-  #block-views-632c02ef065305bc3a4fbc81affb43d9 h2.title {
+  #block-views-632c02ef065305bc3a4fbc81affb43d9 h2.title, #block-views-4cf79e7c57a39b381e94985ec07c7d92 h2.title {
     border-bottom: none;
     font-size: 24px !important;
     font-weight: bold;
@@ -113,34 +113,34 @@ body.menu-colors #sidebar-left {
     margin-bottom: -20px;
     margin-left: 10px;
     padding-top: 8px; }
-  #block-views-632c02ef065305bc3a4fbc81affb43d9 li {
+  #block-views-632c02ef065305bc3a4fbc81affb43d9 li, #block-views-4cf79e7c57a39b381e94985ec07c7d92 li {
     list-style: none;
     line-height: 20px;
     padding-bottom: 3px;
     padding-right: 10px;
     padding-left: 20px;
     margin: 0; }
-    #block-views-632c02ef065305bc3a4fbc81affb43d9 li a {
+    #block-views-632c02ef065305bc3a4fbc81affb43d9 li a, #block-views-4cf79e7c57a39b381e94985ec07c7d92 li a {
       text-decoration: none;
       border-bottom: none; }
-  #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu {
+  #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu, #block-views-4cf79e7c57a39b381e94985ec07c7d92 ul.menu {
     padding: 0 0 30px 1em; }
-    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.last {
+    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.last, #block-views-4cf79e7c57a39b381e94985ec07c7d92 ul.menu li, #block-views-4cf79e7c57a39b381e94985ec07c7d92 ul.menu li.first, #block-views-4cf79e7c57a39b381e94985ec07c7d92 ul.menu li.last {
       font-size: 14px;
       font-weight: bold;
       line-height: 20px;
       margin: 0px;
       padding: 0px;
       padding-top: 6px; }
-    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first {
+    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first, #block-views-4cf79e7c57a39b381e94985ec07c7d92 ul.menu li.first {
       padding-top: 23px; }
-    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu {
+    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu, #block-views-4cf79e7c57a39b381e94985ec07c7d92 ul.menu ul.menu {
       padding: 0px; }
-      #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.last {
+      #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.last, #block-views-4cf79e7c57a39b381e94985ec07c7d92 ul.menu ul.menu li, #block-views-4cf79e7c57a39b381e94985ec07c7d92 ul.menu ul.menu li.first, #block-views-4cf79e7c57a39b381e94985ec07c7d92 ul.menu ul.menu li.last {
         font-size: 12px;
         font-weight: normal;
         padding-top: 6px; }
-  #block-views-632c02ef065305bc3a4fbc81affb43d9 ul ul ul li {
+  #block-views-632c02ef065305bc3a4fbc81affb43d9 ul ul ul li, #block-views-4cf79e7c57a39b381e94985ec07c7d92 ul ul ul li {
     line-height: 20px; }
 
 /* NAVBAR/MAIN MENU */
