@@ -19,13 +19,7 @@ function menu_colors_default_fe_block_settings() {
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -50,18 +44,12 @@ return TRUE;
     'delta' => '632c02ef065305bc3a4fbc81affb43d9',
     'theme' => 'asuzen',
     'status' => '1',
-    'weight' => '-39',
+    'weight' => '-38',
     'region' => 'left',
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -92,7 +80,7 @@ return TRUE;
     'delta' => 'landing_page_menu-block_1',
     'theme' => 'asuzen',
     'status' => 0,
-    'weight' => '-21',
+    'weight' => '-20',
     'region' => '',
     'custom' => '0',
     'throttle' => '0',
@@ -117,7 +105,7 @@ return TRUE;
     'delta' => 'sidebar_html_1-block_1',
     'theme' => 'asuzen',
     'status' => '1',
-    'weight' => '-40',
+    'weight' => '-39',
     'region' => 'left',
     'custom' => '0',
     'throttle' => '0',
@@ -138,7 +126,7 @@ return TRUE;
     'delta' => 'sidebar_html_2-block_1',
     'theme' => 'asuzen',
     'status' => '1',
-    'weight' => '-38',
+    'weight' => '-37',
     'region' => 'left',
     'custom' => '0',
     'throttle' => '0',
@@ -159,7 +147,7 @@ return TRUE;
     'delta' => 'sidebar_menu-block_1',
     'theme' => 'asuzen',
     'status' => 0,
-    'weight' => '-35',
+    'weight' => '-37',
     'region' => '',
     'custom' => '0',
     'throttle' => '0',
@@ -184,14 +172,8 @@ return TRUE;
     'region' => 'right',
     'custom' => '0',
     'throttle' => '0',
-    'visibility' => '2',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'visibility' => '0',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -200,19 +182,13 @@ return TRUE;
     'module' => 'views',
     'delta' => 'sidebar_right_html_2-block_1',
     'theme' => 'asuzen',
-    'status' => 0,
-    'weight' => '-37',
-    'region' => '',
+    'status' => '1',
+    'weight' => '-38',
+    'region' => 'right',
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -232,13 +208,7 @@ return TRUE;
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -268,13 +238,7 @@ return TRUE;
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -385,14 +349,8 @@ return TRUE;
     'region' => '',
     'custom' => '0',
     'throttle' => '0',
-    'visibility' => '2',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'visibility' => '0',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -407,13 +365,7 @@ return TRUE;
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -433,13 +385,7 @@ return TRUE;
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -469,13 +415,7 @@ return TRUE;
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -586,14 +526,8 @@ return TRUE;
     'region' => '',
     'custom' => '0',
     'throttle' => '0',
-    'visibility' => '2',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'visibility' => '0',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -608,13 +542,7 @@ return TRUE;
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -634,13 +562,7 @@ return TRUE;
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -670,13 +592,7 @@ return TRUE;
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -787,14 +703,8 @@ return TRUE;
     'region' => '',
     'custom' => '0',
     'throttle' => '0',
-    'visibility' => '2',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'visibility' => '0',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );
@@ -809,13 +719,7 @@ return TRUE;
     'custom' => '0',
     'throttle' => '0',
     'visibility' => '0',
-    'pages' => '<?php
-if ((arg(0) == \'node\') && is_numeric(arg(1)) && (! arg(2))) {
-  $node = node_load(arg(1));
-if ($node->type == \'fixed_width_landing_page\' || $node->type == \'fixed_width_secondary_page\' ||  $node->type == \'fluid_width_secondary_page\' || $node->type == \'fixed_width_tertiary_page\' ||  $node->type == \'fluid_width_tertiary_page\')
-return TRUE;
-}
-?>',
+    'pages' => '',
     'title' => '',
     'cache' => '-1',
   );

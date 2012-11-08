@@ -660,6 +660,112 @@ hide|Hide Content Title',
     ),
   );
 
+  // Exported field: field_hide_navbar
+  $fields['fixed_width_secondary_page-field_hide_navbar'] = array(
+    'field_name' => 'field_hide_navbar',
+    'type_name' => 'fixed_width_secondary_page',
+    'display_settings' => array(
+      'weight' => '3',
+      'parent' => '',
+      'label' => array(
+        'format' => 'hidden',
+      ),
+      'teaser' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'display|Display Nav Bar
+hide|Hide Nav Bar',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => 'display',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Hide Nav Bar',
+      'weight' => '3',
+      'description' => '',
+      'type' => 'optionwidgets_onoff',
+      'module' => 'optionwidgets',
+    ),
+  );
+
+  // Exported field: field_hide_sidebar_left
+  $fields['fixed_width_secondary_page-field_hide_sidebar_left'] = array(
+    'field_name' => 'field_hide_sidebar_left',
+    'type_name' => 'fixed_width_secondary_page',
+    'display_settings' => array(
+      'weight' => '32',
+      'parent' => 'group_secondary_sidebar',
+      'label' => array(
+        'format' => 'above',
+      ),
+      'teaser' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'full' => array(
+        'format' => 'hidden',
+        'exclude' => 0,
+      ),
+      '4' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+      'token' => array(
+        'format' => 'default',
+        'exclude' => 0,
+      ),
+    ),
+    'widget_active' => '1',
+    'type' => 'text',
+    'required' => '0',
+    'multiple' => '0',
+    'module' => 'text',
+    'active' => '1',
+    'text_processing' => '0',
+    'max_length' => '',
+    'allowed_values' => 'display|Display Sidebar
+hide|Hide Sidebar',
+    'allowed_values_php' => '',
+    'widget' => array(
+      'default_value' => array(
+        '0' => array(
+          'value' => 'display',
+        ),
+      ),
+      'default_value_php' => NULL,
+      'label' => 'Hide Left Sidebar',
+      'weight' => '32',
+      'description' => '',
+      'type' => 'optionwidgets_onoff',
+      'module' => 'optionwidgets',
+    ),
+  );
+
   // Exported field: field_html_block_1
   $fields['fixed_width_secondary_page-field_html_block_1'] = array(
     'field_name' => 'field_html_block_1',
@@ -1049,7 +1155,7 @@ goldgrey|Gold and Grey',
     'field_name' => 'field_secondary_main_content',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
-      'weight' => '8',
+      'weight' => '10',
       'parent' => '',
       'label' => array(
         'format' => 'hidden',
@@ -1093,7 +1199,7 @@ goldgrey|Gold and Grey',
       ),
       'default_value_php' => NULL,
       'label' => 'Main Content',
-      'weight' => '8',
+      'weight' => '10',
       'description' => '',
       'type' => 'text_textarea',
       'module' => 'text',
@@ -1238,7 +1344,7 @@ You may need to clear caches before new Menu Block appears in select list.',
     'field_name' => 'field_sidebar_right_block_1',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
-      'weight' => '16',
+      'weight' => '14',
       'parent' => 'group_sidebar_right',
       'label' => array(
         'format' => 'above',
@@ -1281,7 +1387,7 @@ You may need to clear caches before new Menu Block appears in select list.',
       ),
       'default_value_php' => NULL,
       'label' => 'HTML Block',
-      'weight' => '16',
+      'weight' => '14',
       'description' => '',
       'type' => 'text_textarea',
       'module' => 'text',
@@ -1293,7 +1399,7 @@ You may need to clear caches before new Menu Block appears in select list.',
     'field_name' => 'field_sidebar_right_block_2',
     'type_name' => 'fixed_width_secondary_page',
     'display_settings' => array(
-      'weight' => '18',
+      'weight' => '17',
       'parent' => 'group_sidebar_right',
       'label' => array(
         'format' => 'above',
@@ -1336,142 +1442,10 @@ You may need to clear caches before new Menu Block appears in select list.',
       ),
       'default_value_php' => NULL,
       'label' => 'HTML Block',
-      'weight' => '19',
+      'weight' => '17',
       'description' => '',
       'type' => 'text_textarea',
       'module' => 'text',
-    ),
-  );
-
-  // Exported field: field_sidebar_right_menu
-  $fields['fixed_width_secondary_page-field_sidebar_right_menu'] = array(
-    'field_name' => 'field_sidebar_right_menu',
-    'type_name' => 'fixed_width_secondary_page',
-    'display_settings' => array(
-      'weight' => '17',
-      'parent' => 'group_sidebar_right',
-      'label' => array(
-        'format' => 'above',
-      ),
-      'teaser' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'hidden',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'blockreference',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'blockreference',
-    'active' => '1',
-    'referenceable_regions' => array(
-      '' => 0,
-      'left' => 0,
-      'right' => 0,
-      'navbar' => 0,
-      'content_top' => 0,
-      'content_bottom' => 0,
-      'content_bottom_fixed' => 0,
-      'header' => 0,
-      'footer' => 0,
-      'closure_region' => 0,
-    ),
-    'referenceable_modules' => array(
-      'menu_block' => 'menu_block',
-      'asu_ldap_roles' => 0,
-      'block' => 0,
-      'cas' => 0,
-      'diff' => 0,
-      'menu' => 0,
-      'node' => 0,
-      'poll' => 0,
-      'profile' => 0,
-      'revisioning' => 0,
-      'system' => 0,
-      'user' => 0,
-      'views' => 0,
-      'webform' => 0,
-    ),
-    'referenceable_operator' => 'AND',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'bid' => '0',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Menu',
-      'weight' => '17',
-      'description' => 'Use Menu Block built from SAME menu that is used for Navbar Menu. When creating the Menu Block set Starting Level to 2nd level (secondary).
-You may need to clear caches before new Menu Block appears in select list.',
-      'type' => 'blockreference_select_sort',
-      'module' => 'blockreference',
-    ),
-  );
-
-  // Exported field: field_sidebar_right_menu_color
-  $fields['fixed_width_secondary_page-field_sidebar_right_menu_color'] = array(
-    'field_name' => 'field_sidebar_right_menu_color',
-    'type_name' => 'fixed_width_secondary_page',
-    'display_settings' => array(
-      'label' => array(
-        'format' => 'above',
-        'exclude' => 0,
-      ),
-      'teaser' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'full' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      '4' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-      'token' => array(
-        'format' => 'default',
-        'exclude' => 0,
-      ),
-    ),
-    'widget_active' => '1',
-    'type' => 'text',
-    'required' => '0',
-    'multiple' => '0',
-    'module' => 'text',
-    'active' => '1',
-    'text_processing' => '0',
-    'max_length' => '',
-    'allowed_values' => 'blackwhite|Black and White
-whitegrey|White and Grey
-goldwhite|Gold and White
-greywhite|Grey and White',
-    'allowed_values_php' => '',
-    'widget' => array(
-      'default_value' => array(
-        '0' => array(
-          'value' => '',
-        ),
-      ),
-      'default_value_php' => NULL,
-      'label' => 'Menu Color',
-      'weight' => '18',
-      'description' => '',
-      'type' => 'optionwidgets_buttons',
-      'module' => 'optionwidgets',
     ),
   );
 
@@ -1481,6 +1455,8 @@ greywhite|Grey and White',
   t('Content');
   t('HTML Block');
   t('Hide Content Title');
+  t('Hide Left Sidebar');
+  t('Hide Nav Bar');
   t('Main Content');
   t('Menu');
   t('Menu Color');
