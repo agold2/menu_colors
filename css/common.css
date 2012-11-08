@@ -205,5 +205,9 @@ body.menu-colors-sidebar-right #content-inner {
 body.menu-colors-sidebar-right #content-area {
   padding: 17px 54px 0 30px; }
 
-#sidebar-right {
-  margin-top: 14px; }
+.menu-colors #sidebar-right {
+  margin-top: 14px;
+  margin-right: 30px; }
+
+.menu-colors.sidebar-left.one-sidebar #content-area {
+  margin-left: 197px; }
