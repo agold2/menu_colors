@@ -1,61 +1,220 @@
-/*
-Syntax error: Invalid CSS after "...rs.no-sidebars.": expected class name, was ".node-type-flui..."
-        on line 289 of ./common.scss
+body.menu-colors #content-area {
+  font-family: Arial,Helvetica,sans-serif;
+  padding: 17px 30px 0 30px; }
 
-284: .menu-colors.sidebar-right #content-inner {
-285:   padding-right: 220px;
-286: }
-287: 
-288: .menu-colors.no-sidebars.node-type-fixed-width-secondary-page #content-inner, 
-289: .menu-colors.no-sidebars..node-type-fluid-width-secondary-page #content-inner {
-290:   padding-left: 0px;
-291: }
+body.menu-colors h1, body.menu-colors .node-type-fixed-width-landing-page h2.title, body.menu-colors #content-area h1, body.menu-colors #content-area .node-type-fixed-width-landing-page h2.title {
+  color: #ffb310;
+  font-size: 36px !important;
+  font-weight: bold;
+  line-height: 36px;
+  margin-bottom: 20px;
+  height: 100%; }
+body.menu-colors h2, body.menu-colors #content-area h2 {
+  color: #333; }
+body.menu-colors h2, body.menu-colors .node-type-fixed-width-secondary-page h2.title, body.menu-colors #content-area h2, body.menu-colors #content-area .node-type-fixed-width-secondary-page h2.title {
+  font-size: 26px !important; }
+body.menu-colors .node-type-fixed-width-secondary-page h2.title, body.menu-colors #content-area .node-type-fixed-width-secondary-page h2.title {
+  color: #ffb310;
+  font-size: 36px !important; }
+body.menu-colors h2, body.menu-colors h3, body.menu-colors #content-area h2, body.menu-colors #content-area h3 {
+  font-weight: bold;
+  line-height: 30px;
+  margin-bottom: 15px;
+  text-transform: none; }
+body.menu-colors h3, body.menu-colors h4, body.menu-colors #content-area h3, body.menu-colors #content-area h4 {
+  border-bottom: none; }
+body.menu-colors h3, body.menu-colors #content-area h3 {
+  color: #ffb310;
+  font-size: 26px;
+  text-transform: none;
+  letter-spacing: 0px;
+  margin-top: 0px; }
+body.menu-colors h4, body.menu-colors #content-area h4 {
+  color: #333;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0;
+  line-height: 16px;
+  margin-bottom: 10px; }
+body.menu-colors a, body.menu-colors #content-area a {
+  color: #903; }
+  body.menu-colors a:hover, body.menu-colors #content-area a:hover {
+    color: black; }
 
-Backtrace:
-./common.scss:289
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:1130:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:1066:in `expected'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:1048:in `expr!'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:693:in `class_selector'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:660:in `simple_selector_sequence'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:623:in `_selector'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:602:in `selector'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:592:in `selector_sequence'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:511:in `ruleset'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:536:in `block_child'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:529:in `block_contents'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:70:in `stylesheet'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/scss/parser.rb:27:in `parse'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/engine.rb:342:in `_to_tree'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/engine.rb:315:in `_render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/engine.rb:262:in `render'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:340:in `update_stylesheet'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:202:in `update_stylesheets'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `each'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:200:in `update_stylesheets'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:298:in `watch'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:86:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:86:in `on_change'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:95:in `initialize_adapter'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:55:in `call'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:55:in `poll'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:31:in `start'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:31:in `initialize'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:31:in `new'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/adapters/polling.rb:31:in `start'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/vendor/listen/lib/listen/multi_listener.rb:44:in `start'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin/compiler.rb:306:in `watch'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin.rb:107:in `send'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/plugin.rb:107:in `method_missing'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/exec.rb:431:in `watch_or_update'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/exec.rb:302:in `process_result'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/exec.rb:41:in `parse'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/../lib/sass/../sass/exec.rb:21:in `parse!'
-/Library/Ruby/Gems/1.8/gems/sass-3.2.1/bin/sass:8
-/usr/bin/sass:19:in `load'
-/usr/bin/sass:19
+body.node-type-fixed-width-landing-page #content-area {
+  margin-left: 0px; }
+
+body.menu-colors-hide-sidebar-left #content-area {
+  margin-left: 0px; }
+
+.menu-colors .node-type-fixed-width-secondary-page #sidebar-left,
+.menu-colors .node-type-fluid-width-secondary-page #sidebar-left {
+  padding-top: 0px; }
+
+body.node-type-fixed-width-landing-page .node-inner {
+  margin-right: 0px; }
+
+.menu-colors-hide-sidebar-left .node-inner {
+  margin-right: 0px; }
+
+/* OTHER TEXT STYLES */
+.text-style-1, .text-style-2 {
+  color: #666; }
+  .text-style-1 a, .text-style-2 a {
+    border-bottom: 1px dotted #990033;
+    color: #990033;
+    text-decoration: none; }
+    .text-style-1 a:hover, .text-style-2 a:hover {
+      border-bottom: 0px;
+      color: #000; }
+
+.text-style-1 {
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: bold; }
+
+.text-style-2 {
+  line-height: 18px;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0; }
+
+ul.text-style-2 li {
+  color: #990033;
+  font-size: 12px;
+  font-weight: normal;
+  letter-spacing: 0;
+  line-height: 18px; }
+  ul.text-style-2 li a {
+    border-bottom: dashed 1px #990033;
+    color: #990033; }
+
+/******************************************************************************
+ * LEFT SIDEBAR
+ ******************************************************************************
 */
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...rs.no-sidebars.\": expected class name, was \".node-type-flui...\"\A         on line 289 of ./common.scss\A \A 284: .menu-colors.sidebar-right #content-inner {\A 285:   padding-right: 220px;\A 286: }\A 287: \A 288: .menu-colors.no-sidebars.node-type-fixed-width-secondary-page #content-inner, \A 289: .menu-colors.no-sidebars..node-type-fluid-width-secondary-page #content-inner {\A 290:   padding-left: 0px;\A 291: }"; }
+body.menu-colors #sidebar-left {
+  margin-left: 20px;
+  margin-top: 14px;
+  width: 208px; }
+
+/* Left Nav Block */
+#block-views-632c02ef065305bc3a4fbc81affb43d9 {
+  font-size: 16px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  width: 165px; }
+  #block-views-632c02ef065305bc3a4fbc81affb43d9 h2.title {
+    border-bottom: none;
+    font-size: 24px !important;
+    font-weight: bold;
+    line-height: 30px;
+    margin-bottom: -20px;
+    margin-left: 10px;
+    padding-top: 8px; }
+  #block-views-632c02ef065305bc3a4fbc81affb43d9 li {
+    list-style: none;
+    line-height: 20px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 20px;
+    margin: 0; }
+    #block-views-632c02ef065305bc3a4fbc81affb43d9 li a {
+      text-decoration: none;
+      border-bottom: none; }
+  #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu {
+    padding: 0 0 30px 1em; }
+    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.last {
+      font-size: 14px;
+      font-weight: bold;
+      line-height: 20px;
+      margin: 0px;
+      padding: 0px;
+      padding-top: 6px; }
+    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first {
+      padding-top: 23px; }
+    #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu {
+      padding: 0px; }
+      #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu ul.menu li.last {
+        font-size: 12px;
+        font-weight: normal;
+        padding-top: 6px; }
+  #block-views-632c02ef065305bc3a4fbc81affb43d9 ul ul ul li {
+    line-height: 20px; }
+
+/* NAVBAR/MAIN MENU */
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 {
+  font-family: Arial, Helvetica, sans-serif; }
+  #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu {
+    display: inline; }
+  #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 li.expanded ul.menu, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 li.collapsed ul.menu {
+    display: none; }
+
+.menu-colors #sidebar-left a:hover {
+  text-decoration: none; }
+
+#block-views-sidebar_menu-block_1 ul ul ul ul {
+  margin-left: 10px; }
+
+.two-sidebars #content-inner {
+  padding-left: 250px;
+  /* The width + left margin of #sidebar-left. */
+  padding-right: 215px;
+  /* The width + right margin of #sidebar-right. */ }
+
+body.fixed-second #sidebar-left-inner, body.node-type-fluid-width-secondary-page #sidebar-left-inner {
+  margin: 0; }
+
+body.fixed-second #sidebar-left-inner, .node-type-fluid-width-secondary-page #sidebar-left-inner {
+  margin: 0px; }
+
+body.node-type-fixed-secondary-page #sidebar-left, body.node-type-fluid-width-secondary-page #sidebar-left {
+  background-color: white;
+  width: 200px; }
+
+body.node-type-fixed-secondary-page #content-inner, body.node-type-fluid-width-secondary-page #content-inner {
+  padding-left: 200px; }
+
+body.node-type-fixed-secondary-page #block-views-sidebar_html_1-block_1, body.node-type-fluid-width-secondary-page #block-views-sidebar_html_1-block_1 {
+  margin-bottom: 0; }
+
+hr {
+  width: 100%; }
+
+.node-type-fixed-width-secondary-page #sidebar-left-inner, .node-type-fluid-width-secondary-page #sidebar-left-inner {
+  margin: 0px !important; }
+
+body.node-type-fixed-width-secondary-page #block-views-sidebar_html_1-block_1, body.node-type-fluid-width-secondary-page #block-views-sidebar_html_1-block_1 {
+  margin-bottom: 0px; }
+
+body.node-type-fixed-width-secondary-page #sidebar-left, body.node-type-fluid-width-secondary-page #sidebar-left {
+  padding-top: 0px; }
+
+/* Sidebar right: use sidebar-left */
+body.menu-colors-sidebar-right #sidebar-left {
+  float: right;
+  margin: 16px 18px 0 -300px;
+  width: 270px; }
+body.menu-colors-sidebar-right #content-inner {
+  padding-right: 276px;
+  padding-left: 0; }
+body.menu-colors-sidebar-right #content-area {
+  padding: 17px 54px 0 30px; }
+
+.menu-colors #sidebar-right {
+  margin-top: 14px;
+  margin-right: 30px; }
+
+.menu-colors.two-sidebars #content-inner,
+.menu-colors.sidebar-left #content-inner {
+  padding-left: 197px; }
+
+.menu-colors.two-sidebars.node-type-fixed-width-secondary-page #content-inner {
+  padding-left: 197px; }
+
+.menu-colors.sidebar-right #content-inner {
+  padding-right: 220px; }
+
+.menu-colors.no-sidebars.node-type-fixed-width-secondary-page #content-inner,
+.menu-colors.no-sidebars.node-type-fluid-width-secondary-page #content-inner {
+  padding-left: 0px; }
