@@ -41,7 +41,8 @@ a {
   padding-bottom: 10px;
   padding-top: 9px;
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  line-height: 21px; }
 
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a:hover,
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a.active,
