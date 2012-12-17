@@ -38,7 +38,8 @@
 
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a {
   color: white;
-  text-decoration: none; }
+  text-decoration: none;
+  line-height: 40px; }
 
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a:hover,
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a.active,
