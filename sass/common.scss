@@ -162,7 +162,6 @@ body.menu-colors #sidebar-left {
   }
   ul.menu {
     padding: 0 0 30px 1em;
-    line-height: 21px;
     li, li.first, li.last {
       font-size: 14px;
       font-weight: bold;
@@ -194,6 +193,9 @@ body.menu-colors #sidebar-left {
   height: 40px;
   ul.menu {
     display: inline;
+    li a {
+      line-height: 21px;
+    }
   }
   li.expanded ul.menu, li.collapsed ul.menu {
   display: none;
@@ -296,4 +298,5 @@ body.menu-colors-sidebar-right {
 .menu-colors.no-sidebars.node-type-fluid-width-secondary-page #content-inner {
   padding-left: 0px;
 }
+
 
