@@ -1,6 +1,10 @@
 Drupal.behaviors.myModule = function(context) {
   var links = $(".view-landing-page-menu-blockreference .item-list div.block-menu ul li a").not('.view-landing-page-menu-blockreference .item-list div.block-menu ul li ul li a');
 
+ $("#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul li").css("margin", 0);
+ $("#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul li").css("padding", 0);
+
+
   distributeCategoryLinks('.view-landing-page-menu-blockreference .item-list', links);
 
   function distributeCategoryLinks(container, links) {
@@ -26,6 +30,8 @@ Drupal.behaviors.myModule = function(context) {
       $(this).css("text-align", "center");
       $(this).css("float", "left");
       $(this).css("width", linkPercent + '%');
+      $(this).css("padding", 0);
+      /*$(this).css("line-height", "21px");*/
     } );
   $("#content").css("clear", "both");
   }
