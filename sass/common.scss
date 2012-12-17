@@ -66,7 +66,7 @@ body.menu-colors-hide-sidebar-left #content-area {
   margin-left: 0px;
 }
 
-.menu-colors .node-type-fixed-width-secondary-page #sidebar-left, 
+.menu-colors .node-type-fixed-width-secondary-page #sidebar-left,
 .menu-colors .node-type-fluid-width-secondary-page #sidebar-left {
   padding-top: 0px;
 }
@@ -100,7 +100,7 @@ body.node-type-fixed-width-landing-page .node-inner {
   font-size: 16px;
   font-weight: bold;
   }
-  
+
 .text-style-2 {
   line-height: 18px;
   font-size: 12px;
@@ -119,7 +119,7 @@ ul.text-style-2 li {
     color: #990033;
   }
 }
- 
+
 
 
 /******************************************************************************
@@ -136,6 +136,7 @@ body.menu-colors #sidebar-left {
 /* Left Nav Block */
 #block-views-632c02ef065305bc3a4fbc81affb43d9 {
   font-size: 16px;
+  height: 40px;
   line-height: 25px;
   margin-bottom: 15px;
   width: 165px;
@@ -160,8 +161,9 @@ body.menu-colors #sidebar-left {
       border-bottom: none;
     }
   }
-  ul.menu { 
+  ul.menu {
     padding: 0 0 30px 1em;
+    line-height: 21px;
     li, li.first, li.last {
       font-size: 14px;
       font-weight: bold;
@@ -197,7 +199,7 @@ body.menu-colors #sidebar-left {
   display: none;
   }
 }
- 
+
 .menu-colors #sidebar-left a:hover {
   text-decoration: none;
 }
@@ -211,7 +213,7 @@ body.menu-colors #sidebar-left {
   padding-left: 250px; /* The width + left margin of #sidebar-left. */
   padding-right: 215px; /* The width + right margin of #sidebar-right. */
 }
- 
+
 
 body.fixed-second #sidebar-left-inner, body.node-type-fluid-width-secondary-page #sidebar-left-inner {
   margin: 0;
@@ -290,7 +292,7 @@ body.menu-colors-sidebar-right {
 .menu-colors.sidebar-right #content-inner {
   padding-left: 0px;
 }
-.menu-colors.no-sidebars.node-type-fixed-width-secondary-page #content-inner, 
+.menu-colors.no-sidebars.node-type-fixed-width-secondary-page #content-inner,
 .menu-colors.no-sidebars.node-type-fluid-width-secondary-page #content-inner {
   padding-left: 0px;
 }
