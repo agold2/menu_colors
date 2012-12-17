@@ -101,6 +101,7 @@ body.menu-colors #sidebar-left {
 /* Left Nav Block */
 #block-views-632c02ef065305bc3a4fbc81affb43d9 {
   font-size: 16px;
+  height: 40px;
   line-height: 25px;
   margin-bottom: 15px;
   width: 165px; }
@@ -123,7 +124,8 @@ body.menu-colors #sidebar-left {
       text-decoration: none;
       border-bottom: none; }
   #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu {
-    padding: 0 0 30px 1em; }
+    padding: 0 0 30px 1em;
+    line-height: 21px; }
     #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.first, #block-views-632c02ef065305bc3a4fbc81affb43d9 ul.menu li.last {
       font-size: 14px;
       font-weight: bold;

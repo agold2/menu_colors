@@ -1,30 +1,17 @@
-
-/*
-.not-front #content-area {
-  padding-left: 16px;
-}
-.not-front #content {
-  padding-top: 16px;
-}
-*/
 #content {
-  background: white;
-}
+  background: white; }
 
 .not-front h1 {
-  line-height: 36px;
-}
+  line-height: 36px; }
 
 .not-front .node {
-  margin-bottom: 0px;
-}
+  margin-bottom: 0px; }
 
-
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul li{
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul li {
   /* IE 7 Hack */
   zoom: 1;
-  *display: inline;
-}
+  *display: inline; }
+
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu {
   padding-left: 0;
   padding-right: 0;
@@ -38,66 +25,48 @@
   font-size: 18px;
   font-weight: bold;
   line-height: 40px;
-  /* fixes Firefox 0.9.3 */
-}
-
+  /* fixes Firefox 0.9.3 */ }
 
 a {
-  color: white;
-}
+  color: white; }
 
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li
-{
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li {
   display: inline;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 5px;
   /* matches link padding except for left and right */
-  padding-top: 5px;
-}
+  padding-top: 5px; }
 
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li  a
-{
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a {
   padding-bottom: 10px;
   padding-top: 9px;
   color: white;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a:hover,
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a.active,
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li.active-trail a
-{
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li.active-trail a {
   color: #ffb310;
   border-bottom: 5px solid #ffb310;
-  padding-bottom: 5px;
-}
-
+  padding-bottom: 5px; }
 
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 li.expanded ul.menu,
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 li.collapsed ul.menu {
-  display: none;
-}  
-
+  display: none; }
 
 /* RESET */
-
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 h2 {
-  display: none;
-}
-
+  display: none; }
 
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul li {
   margin: 0;
   padding: 0;
-  list-style: none;
-}
+  list-style: none; }
 
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list {
-  background-color: black;
-}
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 {
+  background-color: black; }

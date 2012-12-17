@@ -1,23 +1,20 @@
 .not-front h1 {
-  line-height: 28px;
-}
+  line-height: 28px; }
+
 #content {
-  background: white;
-}
+  background: white; }
 
-
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul li{
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul li {
   /* IE 7 Hack */
   zoom: 1;
-  *display: inline;
-}
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu
-{
- text-align: center;
-/*
-  padding-bottom: 5px;
-  padding-top: 5px;
-  */
+  *display: inline; }
+
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu {
+  text-align: center;
+  /*
+    padding-bottom: 5px;
+    padding-top: 5px;
+    */
   padding-left: 0;
   padding-right: 0;
   margin-top: 0;
@@ -29,63 +26,38 @@
   font-family: Arial,Helvetica,sans-serif;
   font-size: 18px;
   font-weight: bold;
-  line-height: 40px;
-  /* fixes Firefox 0.9.3 */
-}
+  /* fixes Firefox 0.9.3 */ }
 
-
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li
-{
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li {
   display: inline;
   padding-left: 0;
   padding-right: 0;
   padding-bottom: 5px;
   /* matches link padding except for left and right */
-  padding-top: 5px;
-}
+  padding-top: 5px; }
 
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li  a
-{
-  
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-top: 19px;
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a {
   color: white;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a:hover,
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li a.active,
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li.active-trail a
-
-{
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul.menu li.active-trail a {
   background-color: #ffb310;
-  color: #fff;
-}
-
-
-
+  color: #fff; }
 
 /* RESET */
-
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 h2 {
-  display: none;
-}
-
+  display: none; }
 
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 ul {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul li {
   margin: 0;
   padding: 0;
-  list-style: none;
-}
+  list-style: none; }
 
-#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list {
-  background-color: #4f5557;
-}
-
+#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list, #block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 {
+  background-color: #4f5557; }
