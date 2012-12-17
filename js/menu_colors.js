@@ -1,5 +1,11 @@
 Drupal.behaviors.myModule = function(context) {
+
+  if($.browser.msie && parseInt($.browser.version, 10) <= 7) {
+    return;
+  }
   var links = $(".view-landing-page-menu-blockreference .item-list div.block-menu ul li a").not('.view-landing-page-menu-blockreference .item-list div.block-menu ul li ul li a');
+
+
 
  $("#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul li").css("margin", 0);
  $("#block-views-5d9ea445b3cc9f3542a5ad6d2dfa5e29 .item-list ul li").css("padding", 0);
