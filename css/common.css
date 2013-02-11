@@ -231,7 +231,7 @@ body.menu-colors-sidebar-right #content-area {
 .menu-colors #content-sidebar-wrapper {
   position: relative; }
 
-#block-views-632c02ef065305bc3a4fbc81affb43d9 {
+.menu-colors #content-sidebar-wrapper {
   position: absolute;
-  top: 18px;
+  top: 16px;
   left: 30px; }
