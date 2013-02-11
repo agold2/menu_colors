@@ -224,3 +224,14 @@ body.menu-colors-sidebar-right #content-area {
 .menu-colors.no-sidebars.node-type-fixed-width-secondary-page #content-inner,
 .menu-colors.no-sidebars.node-type-fluid-width-secondary-page #content-inner {
   padding-left: 0px; }
+
+.menu-colors #content {
+  float: none; }
+
+.menu-colors #content-sidebar-wrapper {
+  position: relative; }
+
+#block-views-632c02ef065305bc3a4fbc81affb43d9 {
+  position: absolute;
+  top: 18px;
+  left: 30px; }
