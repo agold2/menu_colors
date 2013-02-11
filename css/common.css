@@ -230,3 +230,8 @@ body.menu-colors-sidebar-right #content-area {
 
 .menu-colors #content-sidebar-wrapper {
   position: relative; }
+
+body.menu-colors #sidebar-left {
+  position: absolute;
+  left: 17px;
+  top: 6px; }
