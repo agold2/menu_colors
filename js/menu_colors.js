@@ -30,8 +30,13 @@ Drupal.behaviors.myModule = function(context) {
         j++;
       }
     } );
+    var totalPadding = containerWidth - linkWidths;
+    var paddingPerLink = totalPadding / j;
+     var lWidth, linkPercent;
     $(links).each ( function () {
-      linkPercent = ($(this).width() / linkWidths) * 100;
+      lWidth =  paddingPerLink + $(this).width();
+      linkPercent = (lWidth / containerWidth) * 100;
+      /*linkPercent = ($(this).width() / linkWidths) * 100;*/
       $(this).css("display", "block");
       $(this).css("text-align", "center");
       $(this).css("float", "left");
